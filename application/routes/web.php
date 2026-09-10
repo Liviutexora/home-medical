@@ -17,7 +17,7 @@ Route::get('/about-v-3', [PagesController::class, 'about_v_3'])
 Route::get('/our-doctors', [PagesController::class, 'our_doctors'])
     ->name('our-doctors');
 
-Route::get('/our-doctors-details', [PagesController::class, 'our_doctors_details'])
+Route::get('/our-doctors-details/{slug?}', [PagesController::class, 'our_doctors_details'])
     ->name('our-doctors-details');
 
 Route::get('/department', [PagesController::class, 'department'])

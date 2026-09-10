@@ -1,21 +1,15 @@
 <ul class="main-menu__list">
     <li>
-        <a href="{{ route('index') }}">Home</a>
+        <a href="{{ route('index') }}">Acasă</a>
     </li>
     <li>
-        <a href="{{ route('about-v-3') }}">About Us</a>
+        <a href="{{ route('about-v-3') }}">Despre noi</a>
+    </li>
+    <li>
+        <a href="{{ route('our-doctors') }}">Echipa medicală</a>
     </li>
     <li class="dropdown">
-        <a href="#">Departments</a>
-        <ul>
-            <li><a href="{{ route('our-doctors') }}">Our Doctors</a></li>
-            <li><a href="{{ route('our-doctors-details') }}">Our Doctors Details</a></li>
-            <li><a href="{{ route('department') }}">Department</a></li>
-            <li><a href="{{ route('appointment') }}">Appointment</a></li>
-        </ul>
-    </li>
-    <li class="dropdown">
-        <a href="#">Services</a>
+        <a href="#">Servicii</a>
         <ul>
             <li><a href="{{ route('services-3') }}">Services</a></li>
             <li><a href="{{ route('medicine-and-health') }}">Medicine And Health</a></li>

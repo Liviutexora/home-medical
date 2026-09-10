@@ -1,5 +1,5 @@
 @extends('layouts.multipage.style-3')
-@section('title', 'Home Three || Mediplace || Mediplace Laravel Template')
+@section('title', 'Home Medical')
 
 
 @section('content')
@@ -1301,7 +1301,8 @@
     </section>
     <!--Benefits One End-->
 
-    <!--Discount One Start-->
+    {{-- Discount One Start --}}
+    {{--
     <section class="discount-one">
         <div class="discount-one__bg"
             style="background-image: url({{ asset('assets/images/backgrounds/discount-one-bg.jpg') }});">
@@ -1344,9 +1345,11 @@
             </div>
         </div>
     </section>
-    <!--Discount One End-->
+    --}}
+    {{-- Discount One End --}}
 
-    <!--Blog Three Start-->
+    {{-- Blog Three Start --}}
+    {{--
     <section class="blog-three">
         <div class="container">
             <div class="blog-three__top">
@@ -1494,7 +1497,8 @@
             </div>
         </div>
     </section>
-    <!--Blog Three End-->
+    --}}
+    {{-- Blog Three End --}}
 
     <!--Location One start-->
     <section class="location-one">

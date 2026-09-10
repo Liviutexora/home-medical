@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('title', 'Our Doctors Details || Mediplace || Mediplace Laravel Template')
+@section('title', 'Home Medical')
 
 
 @section('content')
@@ -14,37 +14,34 @@
                     <div class="col-xl-5 col-lg-5">
                         <div class="team-details__top-left">
                             <div class="team-details__img-1">
-                                <img src="{{ asset('assets/images/medical-general/brand/client-photos/9.jpg') }}" alt="">
+                                <img src="{{ asset($doctor['image']) }}" alt="{{ $doctor['name'] }}">
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-7 col-lg-7">
                         <div class="team-details__top-right">
                             <div class="team-details__client-box">
-                                <h3 class="team-details__client-name">Ruksana Alex</h3>
-                                <span class="team-details__client-sub-title">Dental Assistant</span>
+                                <h3 class="team-details__client-name">{{ $doctor['name'] }}</h3>
+                                <span class="team-details__client-sub-title">{{ $doctor['specialization'] }}</span>
                                 <div class="team-details__social">
                                     <a href="#"><i class="icon-facebook-app-symbol"></i></a>
                                     <a href="#"><i class="icon-twitter"></i></a>
                                     <a href="#"><i class="icon-linkedin"></i></a>
                                     <a href="#"><i class="icon-instagram"></i></a>
                                 </div>
-                                <p class="team-details__client-text">Neque porro quisquam est, qui dolorem ipsum
-                                    quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
-                                    tempora incidunt ut labore et dolore ma gnam aliquam quaerat voluptatem. Ut enim
-                                    ad minima veniam</p>
+                                <p class="team-details__client-text">{{ $doctor['intro'] }}</p>
                                 <ul class="team-details__client-address list-unstyled">
                                     <li>
                                         <p><span class="icon-pin"></span>Address</p>
-                                        <h5>4140 Parker Rd. Allentown, New Mexico 31134</h5>
+                                        <h5>{{ $doctor['address'] }}</h5>
                                     </li>
                                     <li>
                                         <p><span class="icon-phone"></span>Phone Number</p>
-                                        <h5><a href="tel:2085550112">(208) 555-0112</a></h5>
+                                        <h5><a href="tel:{{ preg_replace('/[^0-9]/', '', $doctor['phone']) }}">{{ $doctor['phone'] }}</a></h5>
                                     </li>
                                     <li>
                                         <p><span class="icon-email"></span>Email</p>
-                                        <h5><a href="mailto:michael.mitc@example.com">michael.mitc@example.com</a>
+                                        <h5><a href="mailto:{{ $doctor['email'] }}">{{ $doctor['email'] }}</a>
                                         </h5>
                                     </li>
                                 </ul>

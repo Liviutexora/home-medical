@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('title', 'Our Doctors || Mediplace || Mediplace Laravel Template')
+@section('title', 'Home Medical')
 
 
 @section('content')
@@ -46,7 +46,7 @@
                         </div>
                         <div class="team-two__content">
                             <p class="team-two__designation">Dental</p>
-                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details') }}">Dr. Sabrina Exe</a></h3>
+                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'dental']) }}">Dr. Sabrina Exe</a></h3>
                         </div>
                     </div>
                 </div>
@@ -77,8 +77,7 @@
                         </div>
                         <div class="team-two__content">
                             <p class="team-two__designation">Traumatology</p>
-                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details') }}">Dr. Zubair Hasan</a>
-                            </h3>
+                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'traumatology']) }}">Dr. Zubair Hasan</a></h3>
                         </div>
                     </div>
                 </div>
@@ -109,8 +108,7 @@
                         </div>
                         <div class="team-two__content">
                             <p class="team-two__designation">Neurology</p>
-                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details') }}">Dr. Nusrat Jenny</a>
-                            </h3>
+                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'neurology']) }}">Dr. Nusrat Jenny</a></h3>
                         </div>
                     </div>
                 </div>
@@ -141,12 +139,13 @@
                         </div>
                         <div class="team-two__content">
                             <p class="team-two__designation">Pediatric</p>
-                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details') }}">Dr. Zubair Hasan</a>
-                            </h3>
+                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'pediatric']) }}">Dr. Zubair Hasan</a></h3>
                         </div>
                     </div>
                 </div>
                 <!--Team Two Single End -->
+
+                {{--
                 <!--Team Two Single Start -->
                 <div class="col-xl-3 col-lg-6 col-md-6 filter-item traumatology">
                     <div class="team-two__single">
@@ -178,6 +177,7 @@
                         </div>
                     </div>
                 </div>
+                {{--
                 <!--Team Two Single End -->
                 <!--Team Two Single Start -->
                 <div class="col-xl-3 col-lg-6 col-md-6 filter-item dental">
@@ -531,6 +531,8 @@
                     </div>
                 </div>
                 <!--Team Two Single End -->
+                --}}
+                --}}
             </div>
         </div>
     </section>

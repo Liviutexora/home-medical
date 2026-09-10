@@ -5,6 +5,52 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
+    private function doctorProfiles(): array
+    {
+        return [
+            'dental' => [
+                'slug' => 'dental',
+                'name' => 'Dr. Sabrina Exe',
+                'specialization' => 'Dental',
+                'image' => 'assets/images/medical-general/brand/client-photos/3.jpg',
+                'intro' => 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+                'address' => '4140 Parker Rd. Allentown, New Mexico 31134',
+                'phone' => '(208) 555-0112',
+                'email' => 'sabrina.exe@example.com',
+            ],
+            'traumatology' => [
+                'slug' => 'traumatology',
+                'name' => 'Dr. Zubair Hasan',
+                'specialization' => 'Traumatology',
+                'image' => 'assets/images/medical-general/brand/client-photos/7.jpg',
+                'intro' => 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+                'address' => '215 Lake Street, Denver, Colorado 80202',
+                'phone' => '(303) 555-0147',
+                'email' => 'zubair.hasan@example.com',
+            ],
+            'neurology' => [
+                'slug' => 'neurology',
+                'name' => 'Dr. Nusrat Jenny',
+                'specialization' => 'Neurology',
+                'image' => 'assets/images/medical-general/brand/client-photos/8.jpg',
+                'intro' => 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+                'address' => '782 Hillcrest Ave, Austin, Texas 78701',
+                'phone' => '(512) 555-0188',
+                'email' => 'nusrat.jenny@example.com',
+            ],
+            'pediatric' => [
+                'slug' => 'pediatric',
+                'name' => 'Dr. Zubair Hasan',
+                'specialization' => 'Pediatric',
+                'image' => 'assets/images/medical-general/brand/client-photos/9.jpg',
+                'intro' => 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
+                'address' => '350 Elm Street, Portland, Oregon 97205',
+                'phone' => '(503) 555-0104',
+                'email' => 'pediatric@example.com',
+            ],
+        ];
+    }
+
     public function about_v_3()
     {
         return view('pages.about-v-3');
@@ -12,12 +58,16 @@ class PagesController extends Controller
 
     public function our_doctors()
     {
-        return view('pages.our-doctors');
+        return view('pages.our-doctors', ['doctors' => $this->doctorProfiles()]);
     }
 
-    public function our_doctors_details()
+    public function our_doctors_details($slug = null)
     {
-        return view('pages.our-doctors-details');
+        $doctors = $this->doctorProfiles();
+
+        $doctor = $slug && isset($doctors[$slug]) ? $doctors[$slug] : $doctors['dental'];
+
+        return view('pages.our-doctors-details', ['doctor' => $doctor]);
     }
 
     public function project()

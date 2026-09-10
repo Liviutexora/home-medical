@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('title', '404 Error || Mediplace || Mediplace Laravel Template')
+@section('title', 'Home Medical')
 
 
 @section('content')

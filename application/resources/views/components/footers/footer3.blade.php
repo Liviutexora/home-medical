@@ -86,7 +86,7 @@
                     <div class="col-xl-12">
                         <div class="site-footer-three__bottom-inner">
                             <div class="site-footer-three__copyright">
-                                <p class="site-footer-three__copyright-text">© 2026 Medical General. All Rights Reserved.
+                                <p class="site-footer-three__copyright-text">© 2026 Home Medical. All Rights Reserved.
                                     Website by Texora</p>
                             </div>
                             <ul class="site-footer-three__bottom-menu">

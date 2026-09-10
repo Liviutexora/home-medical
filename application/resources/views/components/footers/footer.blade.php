@@ -155,7 +155,7 @@
                 <div class="col-xl-12">
                     <div class="site-footer__bottom-inner">
                         <div class="site-footer__copyright">
-                            <p class="site-footer__copyright-text">© 2026 Medical General. All Rights Reserved.
+                            <p class="site-footer__copyright-text">© 2026 Home Medical. All Rights Reserved.
                                 Website by Texora</p>
                         </div>
                         <div class="site-footer__bottom-menu-box">

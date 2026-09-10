@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('title', 'Pregnancy and Child Birth || Mediplace || Mediplace Laravel Template')
+@section('title', 'Home Medical')
 
 
 @section('content')

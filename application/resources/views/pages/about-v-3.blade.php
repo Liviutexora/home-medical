@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('title', 'About V-3 || Mediplace || Mediplace Laravel Template')
+@section('title', 'Home Medical')
 
 
 @section('content')
@@ -441,6 +441,7 @@
     </section>
     <!--Team Three One-->
 
+    {{--
     <!--Blog Three Start-->
     <section class="blog-three about-page-v3-blog-page">
         <div class="container">
@@ -590,7 +591,7 @@
         </div>
     </section>
     <!--Blog Three End-->
-
+    --}}
     <!--Location One start-->
     <section class="location-one">
         <div class="container">
