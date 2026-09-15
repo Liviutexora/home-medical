@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <x-page-header pageTitle='Service Health Care' pageSubtitle='Service Health Care' />
+    <x-page-header pageTitle='Servicii Medicale' pageSubtitle='Servicii Medicale' />
 
     <!-- Service Page Three Start -->
     <section class="services-three service-page-three">

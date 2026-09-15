@@ -11,13 +11,16 @@
     <li class="dropdown">
         <a href="#">Servicii</a>
         <ul>
-            <li><a href="{{ route('services-3') }}">Services</a></li>
-            <li><a href="{{ route('medicine-and-health') }}">Medicine And Health</a></li>
-            <li><a href="{{ route('heart-specialist') }}">Heart Specialist</a></li>
-            <li><a href="{{ route('ear-nose-and-throat') }}">Ear Nose And Throat</a></li>
-            <li><a href="{{ route('general-surgery') }}">General Surgery</a>
-            </li>
-            <li><a href="{{ route('pregnancy-and-child-birth') }}">Pregnancy And Child Birth</a></li>
+            <li><a href="{{ route('services-3') }}">Servicii Medicale</a></li>
+            <li><a href="{{ route('chirurgie-generala') }}">Chirurgie generală</a></li>
+            <li><a href="{{ route('dermatologie') }}">Dermatologie</a></li>
+            <li><a href="{{ route('gastroenterologie') }}">Gastroenterologie</a></li>
+            <li><a href="{{ route('medicina-interna') }}">Medicină internă</a></li>
+            <li><a href="{{ route('ortopedie') }}">Ortopedie</a></li>
+            <li><a href="{{ route('orl') }}">ORL</a></li>
+            <li><a href="{{ route('pneumologie') }}">Pneumologie</a></li>
+            <li><a href="{{ route('psihiatrie') }}">Psihiatrie</a></li>
+            <li><a href="{{ route('recuperare-medicala') }}">Recuperare medicală</a></li>
         </ul>
     </li>
     <li>

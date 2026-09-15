@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <x-page-header pageTitle='Our Doctors' pageSubtitle='Our Doctors' />
+    <x-page-header pageTitle='Echipa Medicală' pageSubtitle='Echipa Medicală' />
 
     <!-- Team Page Start -->
     <section class="team-page">

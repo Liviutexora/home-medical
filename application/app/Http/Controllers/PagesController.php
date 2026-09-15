@@ -195,6 +195,51 @@ class PagesController extends Controller
         return view('pages.services-3');
     }
 
+    public function chirurgie_generala()
+    {
+        return view('pages.chirurgie-generala');
+    }
+
+    public function dermatologie()
+    {
+        return view('pages.dermatologie');
+    }
+
+    public function gastroenterologie()
+    {
+        return view('pages.gastroenterologie');
+    }
+
+    public function medicina_interna()
+    {
+        return view('pages.medicina-interna');
+    }
+
+    public function ortopedie()
+    {
+        return view('pages.ortopedie');
+    }
+
+    public function orl()
+    {
+        return view('pages.orl');
+    }
+
+    public function pneumologie()
+    {
+        return view('pages.pneumologie');
+    }
+
+    public function psihiatrie()
+    {
+        return view('pages.psihiatrie');
+    }
+
+    public function recuperare_medicala()
+    {
+        return view('pages.recuperare-medicala');
+    }
+
     public function medicine_and_health()
     {
         return view('pages.medicine-and-health');

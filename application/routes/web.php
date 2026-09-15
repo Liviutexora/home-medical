@@ -29,6 +29,33 @@ Route::get('/appointment', [PagesController::class, 'appointment'])
 Route::get('/services-3', [PagesController::class, 'services_3'])
     ->name('services-3');
 
+Route::get('/chirurgie-generala', [PagesController::class, 'chirurgie_generala'])
+    ->name('chirurgie-generala');
+
+Route::get('/dermatologie', [PagesController::class, 'dermatologie'])
+    ->name('dermatologie');
+
+Route::get('/gastroenterologie', [PagesController::class, 'gastroenterologie'])
+    ->name('gastroenterologie');
+
+Route::get('/medicina-interna', [PagesController::class, 'medicina_interna'])
+    ->name('medicina-interna');
+
+Route::get('/ortopedie', [PagesController::class, 'ortopedie'])
+    ->name('ortopedie');
+
+Route::get('/orl', [PagesController::class, 'orl'])
+    ->name('orl');
+
+Route::get('/pneumologie', [PagesController::class, 'pneumologie'])
+    ->name('pneumologie');
+
+Route::get('/psihiatrie', [PagesController::class, 'psihiatrie'])
+    ->name('psihiatrie');
+
+Route::get('/recuperare-medicala', [PagesController::class, 'recuperare_medicala'])
+    ->name('recuperare-medicala');
+
 Route::get('/medicine-and-health', [PagesController::class, 'medicine_and_health'])
     ->name('medicine-and-health');
 
