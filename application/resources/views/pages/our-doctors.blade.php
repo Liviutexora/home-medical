@@ -25,7 +25,7 @@
                     <div class="team-two__single">
                         <div class="team-two__img-box">
                             <div class="team-two__img">
-                                <img src="{{ asset('assets/images/medical-general/brand/client-photos/3.jpg') }}" alt="Image">
+                                <img src="{{ asset('assets/images/team/team-page-v1-1.jpg') }}" alt="Image">
                             </div>
                             <div class="team-two__arrow-and-social">
                                 <div class="team-two__arrow">
@@ -56,7 +56,7 @@
                     <div class="team-two__single">
                         <div class="team-two__img-box">
                             <div class="team-two__img">
-                                <img src="{{ asset('assets/images/medical-general/brand/client-photos/7.jpg') }}" alt="Image">
+                                <img src="{{ asset('assets/images/team/team-page-v1-2.jpg') }}" alt="Image">
                             </div>
                             <div class="team-two__arrow-and-social">
                                 <div class="team-two__arrow">
@@ -87,7 +87,7 @@
                     <div class="team-two__single">
                         <div class="team-two__img-box">
                             <div class="team-two__img">
-                                <img src="{{ asset('assets/images/medical-general/brand/client-photos/8.jpg') }}" alt="Image">
+                                <img src="{{ asset('assets/images/team/team-page-v1-3.jpg') }}" alt="Image">
                             </div>
                             <div class="team-two__arrow-and-social">
                                 <div class="team-two__arrow">
@@ -118,7 +118,7 @@
                     <div class="team-two__single">
                         <div class="team-two__img-box">
                             <div class="team-two__img">
-                                <img src="{{ asset('assets/images/medical-general/brand/client-photos/9.jpg') }}" alt="Image">
+                                <img src="{{ asset('assets/images/team/team-page-v1-4.jpg') }}" alt="Image">
                             </div>
                             <div class="team-two__arrow-and-social">
                                 <div class="team-two__arrow">

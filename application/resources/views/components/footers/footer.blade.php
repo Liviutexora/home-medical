@@ -99,7 +99,7 @@
                                             <ul class="footer-widget__gallery-list">
                                                 <li>
                                                     <div class="footer-widget__gallery-img">
-                                                        <img src="{{ asset('assets/images/medical-general/brand/client-photos/1.jpg') }}"
+                                                        <img src="{{ asset('assets/images/resources/footer-widget-gallery-1-1.jpg') }}"
                                                             alt="">
                                                         <a href="#"><span
                                                                 class="fab fa-instagram"></span></a>
@@ -107,7 +107,7 @@
                                                 </li>
                                                 <li>
                                                     <div class="footer-widget__gallery-img">
-                                                        <img src="{{ asset('assets/images/medical-general/brand/client-photos/4.jpg') }}"
+                                                        <img src="{{ asset('assets/images/resources/footer-widget-gallery-1-2.jpg') }}"
                                                             alt="">
                                                         <a href="#"><span
                                                                 class="fab fa-instagram"></span></a>
@@ -115,7 +115,7 @@
                                                 </li>
                                                 <li>
                                                     <div class="footer-widget__gallery-img">
-                                                        <img src="{{ asset('assets/images/medical-general/brand/client-photos/7.jpg') }}"
+                                                        <img src="{{ asset('assets/images/resources/footer-widget-gallery-1-3.jpg') }}"
                                                             alt="">
                                                         <a href="#"><span
                                                                 class="fab fa-instagram"></span></a>
@@ -123,7 +123,7 @@
                                                 </li>
                                                 <li>
                                                     <div class="footer-widget__gallery-img">
-                                                        <img src="{{ asset('assets/images/medical-general/brand/client-photos/10.jpg') }}"
+                                                        <img src="{{ asset('assets/images/resources/footer-widget-gallery-1-4.jpg') }}"
                                                             alt="">
                                                         <a href="#"><span
                                                                 class="fab fa-instagram"></span></a>
@@ -131,7 +131,7 @@
                                                 </li>
                                                 <li>
                                                     <div class="footer-widget__gallery-img">
-                                                        <img src="{{ asset('assets/images/medical-general/brand/client-photos/9.jpg') }}"
+                                                        <img src="{{ asset('assets/images/resources/footer-widget-gallery-1-5.jpg') }}"
                                                             alt="">
                                                         <a href="#"><span
                                                                 class="fab fa-instagram"></span></a>

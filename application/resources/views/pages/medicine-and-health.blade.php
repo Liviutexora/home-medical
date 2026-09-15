@@ -132,7 +132,7 @@
                 <div class="col-xl-8 col-lg-7">
                     <div class="service-details__left">
                         <div class="service-details__img">
-                            <img src="{{ asset('assets/images/medical-general/brand/brand-1-1.png') }}" alt="">
+                            <img src="{{ asset('assets/images/services/service-details-img-1.jpg') }}" alt="">
                         </div>
                         <h3 class="service-details__title-1">Medicine and Health</h3>
                         <p class="service-details__text-1">Ut enim ad minim veniam, quis nostrud exercitation
@@ -179,7 +179,7 @@
                                 <div class="col-xl-6">
                                     <div class="service-details__img-box-single">
                                         <div class="service-details__img-box-img">
-                                            <img src="{{ asset('assets/images/medical-general/brand/client-photos/blog-3-2.jpg') }}"
+                                            <img src="{{ asset('assets/images/services/service-details-img-box-img-1.jpg') }}"
                                                 alt="">
                                         </div>
                                         <div class="service-details__img-box-content">
@@ -200,7 +200,7 @@
                                 <div class="col-xl-6">
                                     <div class="service-details__img-box-single">
                                         <div class="service-details__img-box-img">
-                                            <img src="{{ asset('assets/images/medical-general/brand/client-photos/15.jpg') }}"
+                                            <img src="{{ asset('assets/images/services/service-details-img-box-img-2.jpg') }}"
                                                 alt="">
                                         </div>
                                         <div class="service-details__img-box-content">

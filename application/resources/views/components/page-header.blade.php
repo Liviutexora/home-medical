@@ -1,6 +1,6 @@
 <section class="page-header">
     <div class="page-header__bg"
-        style="background-image: url({{ asset('assets/images/medical-general/brand/client-photos/baner-MediPlace.png') }});">
+        style="background-image: url({{ asset('assets/images/backgrounds/page-header-bg.jpg') }});">
     </div>
     <div class="container">
         <div class="page-header__inner">

@@ -14,10 +14,10 @@
                     <div class="about-three__left wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                         <div class="about-three__img-box">
                             <div class="about-three__img">
-                                <img src="{{ asset('assets/images/medical-general/brand/client-photos/poza mare-1.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/resources/about-three-img-1.jpg') }}" alt="">
                             </div>
                             <div class="about-three__img-two">
-                                <img src="{{ asset('assets/images/medical-general/brand/client-photos/poza mica.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/resources/about-three-img-2.jpg') }}" alt="">
                             </div>
                             <div class="about-three__img-three">
                                 <img src="{{ asset('assets/images/resources/about-three-img-3.jpg') }}" alt="">
@@ -255,7 +255,7 @@
                 <!--Start Brand One Single-->
                 <div class="brand-one__single">
                     <div class="brand-one__single-inner">
-                        <a href="#"><img src="{{ asset('assets/images/medical-general/brand/client-photos/brand-1-1-1.png') }}"
+                        <a href="#"><img src="{{ asset('assets/images/brand/brand-1-1.png') }}"
                                 alt=""></a>
                     </div>
                 </div>
@@ -264,7 +264,7 @@
                 <!--Start Brand One Single-->
                 <div class="brand-one__single">
                     <div class="brand-one__single-inner">
-                        <a href="#"><img src="{{ asset('assets/images/medical-general/brand/client-photos/brand-1-1-2.png') }}"
+                        <a href="#"><img src="{{ asset('assets/images/brand/brand-1-2.png') }}"
                                 alt=""></a>
                     </div>
                 </div>
@@ -273,7 +273,7 @@
                 <!--Start Brand One Single-->
                 <div class="brand-one__single">
                     <div class="brand-one__single-inner">
-                        <a href="#"><img src="{{ asset('assets/images/medical-general/brand/client-photos/brand-1-1-3.png') }}"
+                        <a href="#"><img src="{{ asset('assets/images/brand/brand-1-3.png') }}"
                                 alt=""></a>
                     </div>
                 </div>
@@ -282,7 +282,7 @@
                 <!--Start Brand One Single-->
                 <div class="brand-one__single">
                     <div class="brand-one__single-inner">
-                        <a href="#"><img src="{{ asset('assets/images/medical-general/brand/client-photos/brand-1-1-1.png') }}"
+                        <a href="#"><img src="{{ asset('assets/images/brand/brand-1-1.png') }}"
                                 alt=""></a>
                     </div>
                 </div>
@@ -291,7 +291,7 @@
                 <!--Start Brand One Single-->
                 <div class="brand-one__single">
                     <div class="brand-one__single-inner">
-                        <a href="#"><img src="{{ asset('assets/images/medical-general/brand/client-photos/brand-1-1-2.png') }}"
+                        <a href="#"><img src="{{ asset('assets/images/brand/brand-1-2.png') }}"
                                 alt=""></a>
                     </div>
                 </div>
@@ -330,7 +330,7 @@
                             </div>
                         </div>
                         <div class="hover-item__box">
-                            <img src="{{ asset('assets/images/medical-general/brand/client-photos/3.jpg') }}" alt="Image"
+                            <img src="{{ asset('assets/images/team/team-three-1-2.jpg') }}" alt="Image"
                                 class="hover-item__box-img">
                         </div>
                     </li>
@@ -350,7 +350,7 @@
                             </div>
                         </div>
                         <div class="hover-item__box">
-                            <img src="{{ asset('assets/images/medical-general/brand/client-photos/7.jpg') }}" alt="Image"
+                            <img src="{{ asset('assets/images/team/team-three-1-3.jpg') }}" alt="Image"
                                 class="hover-item__box-img">
                         </div>
                     </li>
@@ -370,7 +370,7 @@
                             </div>
                         </div>
                         <div class="hover-item__box">
-                            <img src="{{ asset('assets/images/medical-general/brand/client-photos/8.jpg') }}" alt="Image"
+                            <img src="{{ asset('assets/images/team/team-three-1-4.jpg') }}" alt="Image"
                                 class="hover-item__box-img">
                         </div>
                     </li>
@@ -390,7 +390,7 @@
                             </div>
                         </div>
                         <div class="hover-item__box">
-                            <img src="{{ asset('assets/images/medical-general/brand/client-photos/9.jpg') }}" alt="Image"
+                            <img src="{{ asset('assets/images/team/team-three-1-5.jpg') }}" alt="Image"
                                 class="hover-item__box-img">
                         </div>
                     </li>
@@ -410,7 +410,7 @@
                             </div>
                         </div>
                         <div class="hover-item__box">
-                            <img src="{{ asset('assets/images/medical-general/brand/client-photos/10.jpg') }}" alt="Image"
+                            <img src="{{ asset('assets/images/team/team-three-1-6.jpg') }}" alt="Image"
                                 class="hover-item__box-img">
                         </div>
                     </li>
@@ -430,7 +430,7 @@
                             </div>
                         </div>
                         <div class="hover-item__box">
-                            <img src="{{ asset('assets/images/medical-general/brand/client-photos/7.jpg') }}" alt="Image"
+                            <img src="{{ asset('assets/images/team/team-three-1-2.jpg') }}" alt="Image"
                                 class="hover-item__box-img">
                         </div>
                     </li>
