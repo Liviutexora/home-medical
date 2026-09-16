@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="main-menu__wrapper-inner">
                     <div class="main-menu__logo">
-                        <a href="{{ route('index') }}"><img src="{{ asset('assets/images/resources/logo-1.png') }}"
+                        <a href="{{ route('index') }}"><img src="{{ asset('assets/images/pt web/home-medical-logo-header.png') }}"
                                 alt=""></a>
                     </div>
                     <div class="main-menu__main-menu-box-outer">

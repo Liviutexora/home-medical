@@ -3,7 +3,7 @@
         <div class="main-menu-three__wrapper">
             <div class="main-menu-three__wrapper-inner">
                 <div class="main-menu-three__logo">
-                    <a href="{{ route('index') }}"><img src="{{ asset('assets/images/resources/logo-1.png') }}"
+                    <a href="{{ route('index') }}"><img src="{{ asset('assets/images/pt web/home-medical-logo-header.png') }}"
                             alt=""></a>
                 </div>
                 <div class="main-menu-three__main-menu-box-outer">

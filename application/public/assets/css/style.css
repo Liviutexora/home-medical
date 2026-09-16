@@ -1300,6 +1300,14 @@ xs sidebar
   display: inline-block;
 }
 
+.main-menu__logo a img,
+.main-menu-three__logo a img {
+  display: block;
+  max-width: 330px;
+  height: auto;
+  width: auto;
+}
+
 .main-menu__main-menu-box-outer {
   position: relative;
   display: block;
@@ -2715,6 +2723,13 @@ xs sidebar
 .main-menu-three__logo a {
   position: relative;
   display: inline-block;
+}
+
+.main-menu-three__logo a img {
+  display: block;
+  max-width: 330px;
+  height: auto;
+  width: auto;
 }
 
 .main-menu-three__main-menu-box-outer {
