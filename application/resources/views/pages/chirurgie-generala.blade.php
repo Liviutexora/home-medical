@@ -48,15 +48,15 @@
                             <ul class="service-details__get-started-points list-unstyled">
                                 <li>
                                     <div class="icon"><span class="icon-phone-call"></span></div>
-                                    <p><a href="tel:+40213123456">+40 213 123 456</a></p>
+                                    <p><a href="tel:0723716085">0723 716 085</a></p>
                                 </li>
                                 <li>
                                     <div class="icon"><span class="icon-email"></span></div>
-                                    <p><a href="mailto:contact@home-medical.ro">contact@home-medical.ro</a></p>
+                                    <p><a href="mailto:homemedicalvmc@gmail.com">homemedicalvmc@gmail.com</a></p>
                                 </li>
                                 <li>
                                     <div class="icon"><span class="icon-pin"></span></div>
-                                    <p>Str. Clinicii, Nr. 1,<br> București</p>
+                                    <p>Timișoara, Str. Ulpia Traiana, Nr. 27</p>
                                 </li>
                             </ul>
                             <div class="service-details__get-started-btn-box">
