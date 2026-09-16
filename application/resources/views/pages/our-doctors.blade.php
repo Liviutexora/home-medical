@@ -39,7 +39,7 @@
                     <div class="team-two__single">
                         <div class="team-two__img-box">
                             <div class="team-two__img">
-                                <img src="{{ asset('assets/images/team/team-page-v1-1.jpg') }}" alt="Oniciu Marciana Alexandra">
+                                <img src="{{ asset('assets/images/Galerie-HM/111.jpg') }}" alt="Oniciu Marciana Alexandra">
                             </div>
                             <div class="team-two__arrow-and-social">
                                 <div class="team-two__arrow">
@@ -63,7 +63,7 @@
                     <div class="team-two__single">
                         <div class="team-two__img-box">
                             <div class="team-two__img">
-                                <img src="{{ asset('assets/images/team/team-page-v1-2.jpg') }}" alt="Dumitru Cristina Ștefania">
+                                <img src="{{ asset('assets/images/Galerie-HM/222.jpg') }}" alt="Dumitru Cristina Ștefania">
                             </div>
                             <div class="team-two__arrow-and-social">
                                 <div class="team-two__arrow">
@@ -87,7 +87,7 @@
                     <div class="team-two__single">
                         <div class="team-two__img-box">
                             <div class="team-two__img">
-                                <img src="{{ asset('assets/images/team/team-page-v1-3.jpg') }}" alt="Agajani Heshmatollah">
+                                <img src="{{ asset('assets/images/Galerie-HM/333.jpg') }}" alt="Agajani Heshmatollah">
                             </div>
                             <div class="team-two__arrow-and-social">
                                 <div class="team-two__arrow">
@@ -111,7 +111,7 @@
                     <div class="team-two__single">
                         <div class="team-two__img-box">
                             <div class="team-two__img">
-                                <img src="{{ asset('assets/images/team/team-page-v1-4.jpg') }}" alt="Ciobanu Andra Vera Livia">
+                                <img src="{{ asset('assets/images/Galerie-HM/444.jpg') }}" alt="Ciobanu Andra Vera Livia">
                             </div>
                             <div class="team-two__arrow-and-social">
                                 <div class="team-two__arrow">
@@ -135,7 +135,7 @@
                     <div class="team-two__single">
                         <div class="team-two__img-box">
                             <div class="team-two__img">
-                                <img src="{{ asset('assets/images/team/team-page-v1-1.jpg') }}" alt="Buță Marius Cătălin">
+                                <img src="{{ asset('assets/images/Galerie-HM/555.jpg') }}" alt="Buță Marius Cătălin">
                             </div>
                             <div class="team-two__arrow-and-social">
                                 <div class="team-two__arrow">
@@ -159,7 +159,7 @@
                     <div class="team-two__single">
                         <div class="team-two__img-box">
                             <div class="team-two__img">
-                                <img src="{{ asset('assets/images/team/team-page-v1-2.jpg') }}" alt="Abdel Majid Damra">
+                                <img src="{{ asset('assets/images/Galerie-HM/666.jpg') }}" alt="Abdel Majid Damra">
                             </div>
                             <div class="team-two__arrow-and-social">
                                 <div class="team-two__arrow">
@@ -183,7 +183,7 @@
                     <div class="team-two__single">
                         <div class="team-two__img-box">
                             <div class="team-two__img">
-                                <img src="{{ asset('assets/images/team/team-page-v1-3.jpg') }}" alt="Țălan Claudia Loredana">
+                                <img src="{{ asset('assets/images/Galerie-HM/777.jpg') }}" alt="Țălan Claudia Loredana">
                             </div>
                             <div class="team-two__arrow-and-social">
                                 <div class="team-two__arrow">
@@ -207,7 +207,7 @@
                     <div class="team-two__single">
                         <div class="team-two__img-box">
                             <div class="team-two__img">
-                                <img src="{{ asset('assets/images/team/team-page-v1-4.jpg') }}" alt="Ilin Simona Ramona">
+                                <img src="{{ asset('assets/images/Galerie-HM/888.jpg') }}" alt="Ilin Simona Ramona">
                             </div>
                             <div class="team-two__arrow-and-social">
                                 <div class="team-two__arrow">
@@ -231,7 +231,7 @@
                     <div class="team-two__single">
                         <div class="team-two__img-box">
                             <div class="team-two__img">
-                                <img src="{{ asset('assets/images/team/team-page-v1-1.jpg') }}" alt="Dandea Cristina">
+                                <img src="{{ asset('assets/images/Galerie-HM/999.jpg') }}" alt="Dandea Cristina">
                             </div>
                             <div class="team-two__arrow-and-social">
                                 <div class="team-two__arrow">
@@ -255,7 +255,7 @@
                     <div class="team-two__single">
                         <div class="team-two__img-box">
                             <div class="team-two__img">
-                                <img src="{{ asset('assets/images/team/team-page-v1-2.jpg') }}" alt="Burdan Ghiță Adrian">
+                                <img src="{{ asset('assets/images/Galerie-HM/100.jpg') }}" alt="Burdan Ghiță Adrian">
                             </div>
                             <div class="team-two__arrow-and-social">
                                 <div class="team-two__arrow">
@@ -279,7 +279,7 @@
                     <div class="team-two__single">
                         <div class="team-two__img-box">
                             <div class="team-two__img">
-                                <img src="{{ asset('assets/images/team/team-page-v1-3.jpg') }}" alt="Drira Ouassim">
+                                <img src="{{ asset('assets/images/Galerie-HM/1111.jpg') }}" alt="Drira Ouassim">
                             </div>
                             <div class="team-two__arrow-and-social">
                                 <div class="team-two__arrow">
@@ -303,7 +303,7 @@
                     <div class="team-two__single">
                         <div class="team-two__img-box">
                             <div class="team-two__img">
-                                <img src="{{ asset('assets/images/team/team-page-v1-4.jpg') }}" alt="Mușat Ionuț Marian">
+                                <img src="{{ asset('assets/images/Galerie-HM/1222.jpg') }}" alt="Mușat Ionuț Marian">
                             </div>
                             <div class="team-two__arrow-and-social">
                                 <div class="team-two__arrow">
@@ -327,7 +327,7 @@
                     <div class="team-two__single">
                         <div class="team-two__img-box">
                             <div class="team-two__img">
-                                <img src="{{ asset('assets/images/team/team-page-v1-1.jpg') }}" alt="Mărginean Andrei">
+                                <img src="{{ asset('assets/images/Galerie-HM/1333.jpg') }}" alt="Mărginean Andrei">
                             </div>
                             <div class="team-two__arrow-and-social">
                                 <div class="team-two__arrow">

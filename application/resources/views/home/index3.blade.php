@@ -540,9 +540,8 @@
                     <li class="hover-item">
                         <div class="team-three__single">
                             <div class="team-three__info">
-                                <p class="team-three__sub-title">Pediatrician</p>
-                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details') }}">Dr. Jennifer
-                                        Scott</a></h3>
+                                <p class="team-three__sub-title">Medicină internă</p>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'oniciu-marciana-alexandra']) }}">Oniciu Marciana Alexandra</a></h3>
                             </div>
                             <div class="team-three__social">
                                 <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
@@ -550,8 +549,7 @@
                             </div>
                         </div>
                         <div class="hover-item__box">
-                            <img src="{{ asset('assets/images/team/team-three-1-2.jpg') }}" alt="Image"
-                                class="hover-item__box-img">
+                            <img src="{{ asset('assets/images/Galerie-HM/1.jpg') }}" alt="Oniciu Marciana Alexandra" class="hover-item__box-img">
                         </div>
                     </li>
                     <!--Team Three Single End-->
@@ -559,10 +557,8 @@
                     <li class="hover-item">
                         <div class="team-three__single">
                             <div class="team-three__info">
-                                <p class="team-three__sub-title">Ophthalmologist</p>
-                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details') }}">Dr. Sarah
-                                        Levine</a>
-                                </h3>
+                                <p class="team-three__sub-title">ORL</p>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'dumitru-cristina-stefania']) }}">Dumitru Cristina Ștefania</a></h3>
                             </div>
                             <div class="team-three__social">
                                 <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
@@ -570,8 +566,7 @@
                             </div>
                         </div>
                         <div class="hover-item__box">
-                            <img src="{{ asset('assets/images/team/team-three-1-3.jpg') }}" alt="Image"
-                                class="hover-item__box-img">
+                            <img src="{{ asset('assets/images/Galerie-HM/2.jpg') }}" alt="Dumitru Cristina Ștefania" class="hover-item__box-img">
                         </div>
                     </li>
                     <!--Team Three Single End-->
@@ -579,10 +574,8 @@
                     <li class="hover-item">
                         <div class="team-three__single">
                             <div class="team-three__info">
-                                <p class="team-three__sub-title">Dermatologist</p>
-                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details') }}">Dr. Amanda
-                                        Chen</a>
-                                </h3>
+                                <p class="team-three__sub-title">Dermatologie</p>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'agajani-heshmatollah']) }}">Agajani Heshmatollah</a></h3>
                             </div>
                             <div class="team-three__social">
                                 <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
@@ -590,8 +583,7 @@
                             </div>
                         </div>
                         <div class="hover-item__box">
-                            <img src="{{ asset('assets/images/team/team-three-1-4.jpg') }}" alt="Image"
-                                class="hover-item__box-img">
+                            <img src="{{ asset('assets/images/Galerie-HM/3.jpg') }}" alt="Agajani Heshmatollah" class="hover-item__box-img">
                         </div>
                     </li>
                     <!--Team Three Single End-->
@@ -599,10 +591,8 @@
                     <li class="hover-item">
                         <div class="team-three__single">
                             <div class="team-three__info">
-                                <p class="team-three__sub-title">Health Specialist</p>
-                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details') }}">Dr. Laura
-                                        Simmon</a>
-                                </h3>
+                                <p class="team-three__sub-title">Psihiatrie</p>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'ciobanu-andra-vera-livia']) }}">Ciobanu Andra Vera Livia</a></h3>
                             </div>
                             <div class="team-three__social">
                                 <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
@@ -610,8 +600,7 @@
                             </div>
                         </div>
                         <div class="hover-item__box">
-                            <img src="{{ asset('assets/images/team/team-three-1-5.jpg') }}" alt="Image"
-                                class="hover-item__box-img">
+                            <img src="{{ asset('assets/images/Galerie-HM/4.jpg') }}" alt="Ciobanu Andra Vera Livia" class="hover-item__box-img">
                         </div>
                     </li>
                     <!--Team Three Single End-->
@@ -619,10 +608,8 @@
                     <li class="hover-item">
                         <div class="team-three__single">
                             <div class="team-three__info">
-                                <p class="team-three__sub-title">General Dentist</p>
-                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details') }}">Dr. Megan
-                                        Ross</a>
-                                </h3>
+                                <p class="team-three__sub-title">Pneumologie</p>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'buta-marius-catalin']) }}">Buță Marius Cătălin</a></h3>
                             </div>
                             <div class="team-three__social">
                                 <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
@@ -630,8 +617,7 @@
                             </div>
                         </div>
                         <div class="hover-item__box">
-                            <img src="{{ asset('assets/images/team/team-three-1-6.jpg') }}" alt="Image"
-                                class="hover-item__box-img">
+                            <img src="{{ asset('assets/images/Galerie-HM/5.jpg') }}" alt="Buță Marius Cătălin" class="hover-item__box-img">
                         </div>
                     </li>
                     <!--Team Three Single End-->
@@ -639,10 +625,8 @@
                     <li class="hover-item">
                         <div class="team-three__single">
                             <div class="team-three__info">
-                                <p class="team-three__sub-title">Gastroenterologist</p>
-                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details') }}">Dr. James
-                                        Wilson</a>
-                                </h3>
+                                <p class="team-three__sub-title">Gastroenterologie</p>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'abdel-majid-damra']) }}">Abdel Majid Damra</a></h3>
                             </div>
                             <div class="team-three__social">
                                 <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
@@ -650,8 +634,126 @@
                             </div>
                         </div>
                         <div class="hover-item__box">
-                            <img src="{{ asset('assets/images/team/team-three-1-2.jpg') }}" alt="Image"
-                                class="hover-item__box-img">
+                            <img src="{{ asset('assets/images/Galerie-HM/6.jpg') }}" alt="Abdel Majid Damra" class="hover-item__box-img">
+                        </div>
+                    </li>
+                    <!--Team Three Single End-->
+                    <!--Team Three Single Start-->
+                    <li class="hover-item">
+                        <div class="team-three__single">
+                            <div class="team-three__info">
+                                <p class="team-three__sub-title">Recuperare medicală</p>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'talan-claudia-loredana']) }}">Țălan Claudia Loredana</a></h3>
+                            </div>
+                            <div class="team-three__social">
+                                <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="27" height="27" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a>
+                            </div>
+                        </div>
+                        <div class="hover-item__box">
+                            <img src="{{ asset('assets/images/Galerie-HM/7.jpg') }}" alt="Țălan Claudia Loredana" class="hover-item__box-img">
+                        </div>
+                    </li>
+                    <!--Team Three Single End-->
+                    <!--Team Three Single Start-->
+                    <li class="hover-item">
+                        <div class="team-three__single">
+                            <div class="team-three__info">
+                                <p class="team-three__sub-title">Medicină internă</p>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'ilin-simona-ramona']) }}">Ilin Simona Ramona</a></h3>
+                            </div>
+                            <div class="team-three__social">
+                                <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="27" height="27" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a>
+                            </div>
+                        </div>
+                        <div class="hover-item__box">
+                            <img src="{{ asset('assets/images/Galerie-HM/8.jpg') }}" alt="Ilin Simona Ramona" class="hover-item__box-img">
+                        </div>
+                    </li>
+                    <!--Team Three Single End-->
+                    <!--Team Three Single Start-->
+                    <li class="hover-item">
+                        <div class="team-three__single">
+                            <div class="team-three__info">
+                                <p class="team-three__sub-title">Chirurgie generală</p>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'dandea-cristina']) }}">Dandea Cristina</a></h3>
+                            </div>
+                            <div class="team-three__social">
+                                <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="27" height="27" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a>
+                            </div>
+                        </div>
+                        <div class="hover-item__box">
+                            <img src="{{ asset('assets/images/Galerie-HM/9.jpg') }}" alt="Dandea Cristina" class="hover-item__box-img">
+                        </div>
+                    </li>
+                    <!--Team Three Single End-->
+                    <!--Team Three Single Start-->
+                    <li class="hover-item">
+                        <div class="team-three__single">
+                            <div class="team-three__info">
+                                <p class="team-three__sub-title">Gastroenterologie</p>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'burdan-ghita-adrian']) }}">Burdan Ghiță Adrian</a></h3>
+                            </div>
+                            <div class="team-three__social">
+                                <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="27" height="27" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a>
+                            </div>
+                        </div>
+                        <div class="hover-item__box">
+                            <img src="{{ asset('assets/images/Galerie-HM/10.jpg') }}" alt="Burdan Ghiță Adrian" class="hover-item__box-img">
+                        </div>
+                    </li>
+                    <!--Team Three Single End-->
+                    <!--Team Three Single Start-->
+                    <li class="hover-item">
+                        <div class="team-three__single">
+                            <div class="team-three__info">
+                                <p class="team-three__sub-title">Ortopedie</p>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'drira-ouassim']) }}">Drira Ouassim</a></h3>
+                            </div>
+                            <div class="team-three__social">
+                                <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="27" height="27" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a>
+                            </div>
+                        </div>
+                        <div class="hover-item__box">
+                            <img src="{{ asset('assets/images/Galerie-HM/11.jpg') }}" alt="Drira Ouassim" class="hover-item__box-img">
+                        </div>
+                    </li>
+                    <!--Team Three Single End-->
+                    <!--Team Three Single Start-->
+                    <li class="hover-item">
+                        <div class="team-three__single">
+                            <div class="team-three__info">
+                                <p class="team-three__sub-title">Ortopedie</p>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'musat-ionut-marian']) }}">Mușat Ionuț Marian</a></h3>
+                            </div>
+                            <div class="team-three__social">
+                                <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="27" height="27" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a>
+                            </div>
+                        </div>
+                        <div class="hover-item__box">
+                            <img src="{{ asset('assets/images/Galerie-HM/12.jpg') }}" alt="Mușat Ionuț Marian" class="hover-item__box-img">
+                        </div>
+                    </li>
+                    <!--Team Three Single End-->
+                    <!--Team Three Single Start-->
+                    <li class="hover-item">
+                        <div class="team-three__single">
+                            <div class="team-three__info">
+                                <p class="team-three__sub-title">Chirurgie generală</p>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'marginean-andrei']) }}">Mărginean Andrei</a></h3>
+                            </div>
+                            <div class="team-three__social">
+                                <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="27" height="27" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a>
+                            </div>
+                        </div>
+                        <div class="hover-item__box">
+                            <img src="{{ asset('assets/images/Galerie-HM/13.jpg') }}" alt="Mărginean Andrei" class="hover-item__box-img">
                         </div>
                     </li>
                     <!--Team Three Single End-->
