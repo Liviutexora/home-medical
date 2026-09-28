@@ -6,20 +6,48 @@
 
         <div class="logo-box">
             <a href="{{ route('index3') }}" aria-label="logo image"><img
-                    src="{{ asset('assets/images/resources/logo-2.png') }}" width="150" alt="" /></a>
+                    src="{{ asset('assets/images/Sigla-Home-Medical/home-medical-logo-light.png') }}" alt="" /></a>
         </div>
         <!-- /.logo-box -->
         <div class="mobile-nav__container"></div>
         <!-- /.mobile-nav__container -->
 
+        <div class="content-box">
+            <h4>Despre Noi</h4>
+            <div class="inner-text">
+                <p>Locul unde „HOME MEDICAL” înseamnă acasă pentru fiecare!</p>
+            </div>
+        </div>
+
         <ul class="mobile-nav__contact list-unstyled">
             <li>
-                <i class="fa fa-envelope"></i>
-                <a href="mailto:needhelp@packageName__.com">needhelp@Mediplace.com</a>
+                <i class="fa fa-map-marker"></i>
+                <span>Adresă:<br>Timișoara, Str. Ulpia Traiana, Nr. 27</span>
             </li>
             <li>
                 <i class="fas fa-phone"></i>
-                <a href="tel:666-888-0000">666 888 0000</a>
+                <span>
+                    Telefon:<br>
+                    <a href="tel:0356171818">0356 171 818</a><br>
+                    <a href="tel:0723716085">0723 716 085</a>
+                </span>
+            </li>
+            <li>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    Email:<br>
+                    <a href="mailto:homemedicalvmc@gmail.com">homemedicalvmc@gmail.com</a>
+                </span>
+            </li>
+            <li>
+                <i class="fa fa-clock-o"></i>
+                <span>
+                    Program:<br>
+                    Luni – Vineri: 09:00 – 17:00<br>
+                    Consultații clinice<br><br>
+                    Luni – Vineri: 09:00 – 16:00<br>
+                    Fișe medicale tip A(B) · Port armă
+                </span>
             </li>
         </ul><!-- /.mobile-nav__contact -->
         <div class="mobile-nav__top">

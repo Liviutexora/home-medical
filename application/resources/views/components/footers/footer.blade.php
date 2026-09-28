@@ -16,12 +16,10 @@
                         <div class="footer-widget__about">
                             <div class="footer-widget__about-logo">
                                 <a href="{{ route('index') }}"><img
-                                        src="{{ asset('assets/images/resources/logo-2.png') }}" alt=""></a>
+                                        src="{{ asset('assets/images/Sigla-Home-Medical/home-medical-logo-light.png') }}" alt=""></a>
                             </div>
-                            <p class="footer-widget__about-text">Providing trusted dental care with <br>
-                                compassion & precision. Your healthy <br>
-                                smile is our top priority.</p>
-                            <div class="footer-widget__newsletter-form-box">
+                            <p class="footer-widget__about-text">Locul unde „HOME MEDICAL” inseamna acasa pentru fiecare!</p>
+                            <!-- <div class="footer-widget__newsletter-form-box">
                                 <h3 class="footer-widget__newsletter-title">Newsletter</h3>
                                 <form class="footer-widget__newsletter-form contact-form-validated"
                                     action="{{ route('newsletter.subscribe') }}" method="POST" novalidate="novalidate">
@@ -34,7 +32,7 @@
                                     </button>
                                     <div class="result"></div>
                                 </form>
-                            </div>
+                            </div> -->
                             <div class="footer-widget__social">
                                 <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
                                 <a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="27" height="27" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a>
@@ -46,44 +44,49 @@
                             <div class="row">
                                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                                     <div class="footer-widget__links">
-                                        <h4 class="footer-widget__title">Our Services</h4>
+                                        <h4 class="footer-widget__title">SERVICII</h4>
                                         <ul class="footer-widget__links-list list-unstyled">
-                                            <li><a href="{{ route('medicine-and-health') }}">Teeth Whitening</a></li>
-                                            <li><a href="{{ route('medicine-and-health') }}">Tooth Extractions</a></li>
-                                            <li><a href="{{ route('medicine-and-health') }}">Dental Implants</a></li>
-                                            <li><a href="{{ route('heart-specialist') }}">Fluoride Treatments</a></li>
-                                            <li><a href="{{ route('medicine-and-health') }}">Orthodontics</a></li>
-                                            <li><a href="{{ route('medicine-and-health') }}">Retainers</a></li>
+                                            <li><a href="{{ route('chirurgie-generala') }}">Chirurgie Generală</a></li>
+                                            <li><a href="{{ route('dermatologie') }}">Dermatologie</a></li>
+                                            <li><a href="{{ route('gastroenterologie') }}">Gastroenterologie</a></li>
+                                            <li><a href="{{ route('medicina-interna') }}">Medicină Internă</a></li>
+                                            <li><a href="{{ route('ortopedie') }}">Ortopedie</a></li>
+                                            <li><a href="{{ route('services-3') }}">Vezi toate serviciile →</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                                     <div class="footer-widget__services">
-                                        <h4 class="footer-widget__title">Quick Links</h4>
+                                        <h4 class="footer-widget__title">ECHIPA MEDICALĂ</h4>
                                         <ul class="footer-widget__links-list list-unstyled">
-                                            <li><a href="{{ route('contact') }}">Helpful Information</a></li>
-                                            <li><a href="{{ route('contact') }}">Knowledge Center</a></li>
-                                            <li><a href="{{ route('contact') }}">Flexible Pricing</a></li>
-                                            <li><a href="{{ route('about-v-3') }}">Before & After</a></li>
-                                            <li><a href="{{ route('about-v-3') }}">FAQs & Forms</a></li>
+                                            <li><a href="{{ route('our-doctors-details', ['slug' => 'oniciu-marciana-alexandra']) }}">Oniciu Marciana Alexandra</a></li>
+                                            <li><a href="{{ route('our-doctors-details', ['slug' => 'dumitru-cristina-stefania']) }}">Dumitru Cristina Ștefania</a></li>
+                                            <li><a href="{{ route('our-doctors-details', ['slug' => 'agajani-heshmatollah']) }}">Agajani Heshmatollah</a></li>
+                                            <li><a href="{{ route('our-doctors-details', ['slug' => 'ciobanu-andra-vera-livia']) }}">Ciobanu Andra Vera Livia</a></li>
+                                            <li><a href="{{ route('our-doctors-details', ['slug' => 'buta-marius-catalin']) }}">Buță Marius Cătălin</a></li>
+                                            <li><a href="{{ route('our-doctors') }}">Vezi toată echipa →</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                                     <div class="footer-widget__office">
-                                        <h3 class="footer-widget__title">Our Offices</h3>
+                                        <h3 class="footer-widget__title">DESPRE NOI</h3>
                                         <ul class="footer-widget__office-list list-unstyled">
                                             <li>
-                                                <p>Headquarters- USA</p>
-                                                <h5><a href="{{ route('contact') }}">Seattle (major city in the state
-                                                        Washington).
-                                                    </a></h5>
+                                                <p>Adresă:</p>
+                                                <h5>Timișoara, Str. Ulpia Traiana, Nr. 27</h5>
                                             </li>
                                             <li>
-                                                <p>Operations - China</p>
-                                                <h5><a href="{{ route('contact') }}">Shanghai major global financial
-                                                        hub & China's largest cities
-                                                    </a></h5>
+                                                <p>Program:</p>
+                                                <h5>Luni – Vineri: 09:00 – 17:00<br>
+                                                    Consultații clinice</h5>
+                                            </li>
+                                            <li>
+                                                <h5>Luni – Vineri: 09:00 – 16:00<br>
+                                                    Fișe medicale tip A(B) · Port armă</h5>
+                                            </li>
+                                            <li>
+                                                <h5><a href="https://maps.app.goo.gl/dVyGtGinTZFE6Biw6" target="_blank" rel="noopener noreferrer">Vezi locația pe Google Maps →</a></h5>
                                             </li>
                                         </ul>
                                     </div>
@@ -153,8 +156,6 @@
                         </div>
                         <div class="site-footer__bottom-menu-box">
                             <ul class="list-unstyled site-footer__bottom-menu">
-                                <li><a href="{{ route('about-v-3') }}">Terms of Service</a></li>
-                                <li><a href="{{ route('about-v-3') }}">Privacy policy</a></li>
                             </ul>
                         </div>
                     </div>

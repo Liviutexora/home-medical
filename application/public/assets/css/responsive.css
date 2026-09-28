@@ -4687,6 +4687,21 @@
 
 
 
+    .quick-contact-one__location-inner .row > [class*="col-"] {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .quick-contact-one__location-single {
+        height: auto;
+        min-height: 0;
+        padding: 22px 18px 20px;
+    }
+
+    .quick-contact-one__location-text {
+        padding-top: 18px;
+    }
+
     .main-menu-three__wrapper {
         padding: 0 20px 0;
     }
