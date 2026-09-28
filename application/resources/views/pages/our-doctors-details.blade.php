@@ -30,17 +30,16 @@
                                 <p class="team-details__client-text">{{ $doctor['intro'] }}</p>
                                 <ul class="team-details__client-address list-unstyled">
                                     <li>
-                                        <p><span class="icon-pin"></span>Address</p>
-                                        <h5>{{ $doctor['address'] }}</h5>
+                                        <p><span class="icon-pin"></span>Adresă</p>
+                                        <h5>Timișoara, Str. Ulpia Traiana, Nr. 27</h5>
                                     </li>
                                     <li>
-                                        <p><span class="icon-phone"></span>Phone Number</p>
-                                        <h5><a href="tel:{{ preg_replace('/[^0-9]/', '', $doctor['phone']) }}">{{ $doctor['phone'] }}</a></h5>
+                                        <p><span class="icon-phone"></span>Telefon</p>
+                                        <h5><a href="tel:0356171818">0356 171 818 · 0723 716 085</a></h5>
                                     </li>
                                     <li>
                                         <p><span class="icon-email"></span>Email</p>
-                                        <h5><a href="mailto:{{ $doctor['email'] }}">{{ $doctor['email'] }}</a>
-                                        </h5>
+                                        <h5><a href="mailto:homemedicalvmc@gmail.com">homemedicalvmc@gmail.com</a></h5>
                                     </li>
                                 </ul>
                             </div>
@@ -52,52 +51,37 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6">
                         <div class="team-details__bottom-left">
-                            <h3 class="team-details__bottom-title">Biography</h3>
-                            <p class="team-details__bottom-text">Neque porro quisquam est, qui dolorem ipsum quia
-                                dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-                                incidunt ut labore et dolore ma gnam aliquam quaerat voluptatem. Ut enim ad minima
-                                veniam</p>
+                            <h3 class="team-details__bottom-title">Biografie</h3>
+                            <p class="team-details__bottom-text">3–5 propoziții despre medic, experiență și domeniul de activitate.</p>
                             <div class="team-details__practice-area">
-                                <h4 class="team-details__practice-area-title">Practice Area</h4>
+                                <h4 class="team-details__practice-area-title">Servicii oferite</h4>
                                 <div class="team-details__practice-area-list-box">
+                                    <p>Lista consultațiilor, procedurilor și intervențiilor pe care medicul le efectuează în cadrul Home Medical.</p>
                                     <ul class="list-unstyled team-details__practice-area-list">
                                         <li>
                                             <div class="icon"></div>
                                             <div class="text">
-                                                <p>Cancer Treatment</p>
+                                                <p>Consultații de specialitate</p>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="icon"></div>
                                             <div class="text">
-                                                <p>Eye treatment</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="icon"></div>
-                                            <div class="text">
-                                                <p>Ocular</p>
+                                                <p>Investigații și evaluări specifice</p>
                                             </div>
                                         </li>
                                     </ul>
-                                    <ul
-                                        class="list-unstyled team-details__practice-area-list team-details__practice-area-list--two">
+                                    <ul class="list-unstyled team-details__practice-area-list team-details__practice-area-list--two">
                                         <li>
                                             <div class="icon"></div>
                                             <div class="text">
-                                                <p>Paediatric</p>
+                                                <p>Proceduri medicale</p>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="icon"></div>
                                             <div class="text">
-                                                <p>Oral Health</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="icon"></div>
-                                            <div class="text">
-                                                <p>Surgery Dental</p>
+                                                <p>Intervenții medicale</p>
                                             </div>
                                         </li>
                                     </ul>
@@ -105,7 +89,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-lg-6">
+                    {{-- Skills section hidden intentionally for all doctor detail pages --}}
+                    <div class="col-xl-6 col-lg-6" style="display: none;">
                         <div class="team-details__bottom-right">
                             <h3 class="team-details__progress-title-1">Skills</h3>
                             <ul class="team-details__progress-list list-unstyled">
@@ -148,8 +133,8 @@
     </section>
     <!--Team Details End-->
 
-    <!--Team Details Contact Start-->
-    <section class="team-details-contact">
+    {{-- Contact Our Team section hidden intentionally for all doctor detail pages --}}
+    <section class="team-details-contact" style="display: none;">
         <div class="container">
             <div class="section-title text-center sec-title-animation animation-style1">
                 <div class="section-title__tagline-box">
@@ -202,6 +187,5 @@
             </div>
         </div>
     </section>
-    <!--Team Details Contact End-->
 
 @endsection

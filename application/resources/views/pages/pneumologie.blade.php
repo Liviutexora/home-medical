@@ -43,7 +43,7 @@
                         <div class="service-details__img"><img src="{{ asset('assets/images/services/service-details-img-1.jpg') }}" alt=""></div>
                         <h3 class="service-details__title-1">Pneumologie</h3>
                         <p class="service-details__text-1">Departamentul de pneumologie se ocupă cu evaluarea și tratamentul afecțiunilor respiratorii, inclusiv a celor cronice.</p>
-                        <p class="service-details__text-2">Conținutul specific trebuie completat ulterior, dar paginile și linkurile sunt integrate corect în structură.</p>
+                        <p class="service-details__text-2">Pneumologia este dedicată evaluării și monitorizării afecțiunilor aparatului respirator. Printr-o evaluare clinică atentă, medicul urmărește identificarea problemelor respiratorii și stabilirea unei conduite medicale adaptate nevoilor pacientului.</p>
                         <ul class="service-details__points-list list-unstyled">
                             <li><div class="icon"><span class="icon-check"></span></div><p>Consult pneumologic.</p></li>
                             <li><div class="icon"><span class="icon-check"></span></div><p>Diagnostic și monitorizare.</p></li>

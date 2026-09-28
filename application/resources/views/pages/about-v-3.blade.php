@@ -113,23 +113,19 @@
         <div class="sliding-text-two__wrap">
             <ul class="sliding-text-two__list list-unstyled marquee_mode">
                 <li>
-                    <h2 data-hover="Miror Surgery" class="sliding-text-two__title">Miror Surgery</h2>
+                    <h2 data-hover="HOME MEDICAL" class="sliding-text-two__title">HOME MEDICAL</h2>
                 </li>
                 <li><span></span></li>
                 <li>
-                    <h2 data-hover="Dental Implan" class="sliding-text-two__title">Dental Implan</h2>
+                    <h2 data-hover="ÎNGRIJIRE MEDICALĂ" class="sliding-text-two__title">ÎNGRIJIRE MEDICALĂ</h2>
                 </li>
                 <li><span></span></li>
                 <li>
-                    <h2 data-hover="Teeth Cleaning" class="sliding-text-two__title">Teeth Cleaning</h2>
+                    <h2 data-hover="PROFESIONALISM" class="sliding-text-two__title">PROFESIONALISM</h2>
                 </li>
                 <li><span></span></li>
                 <li>
-                    <h2 data-hover="Dental Fillings" class="sliding-text-two__title">Dental Fillings</h2>
-                </li>
-                <li><span></span></li>
-                <li>
-                    <h2 data-hover="Endodontics" class="sliding-text-two__title">Endodontics</h2>
+                    <h2 data-hover="ATENȚIE PENTRU PACIENT" class="sliding-text-two__title">ATENȚIE PENTRU PACIENT</h2>
                 </li>
                 <li><span></span></li>
             </ul>
@@ -155,10 +151,10 @@
             <div class="section-title text-center sec-title-animation animation-style1">
                 <div class="section-title__tagline-box">
                     <span class="icon-pharmacy"></span>
-                    <p class="section-title__tagline">Healing with Heart</p>
+                    <p class="section-title__tagline">TRATĂM CU SUFLET</p>
                 </div>
-                <h2 class="section-title__title title-animation">Medical Services That <br>
-                    <span>make a difference</span>
+                <h2 class="section-title__title title-animation">Servicii medicale care <br>
+                    <span>fac diferența</span>
                 </h2>
             </div>
             <div class="swiper-container service-three__carousel">
@@ -167,7 +163,7 @@
                     <div class="swiper-slide">
                         <div class="services-three__single">
                             <div class="services-three__icon">
-                                <span class="icon-orthopaedics"></span>
+                                <span class="icon-first-aid-kit"></span>
                             </div>
                             <div class="services-three__single-inner">
                                 <div class="services-three__shape-1">
@@ -176,11 +172,51 @@
                                 </div>
                                 <div class="services-three__count"></div>
                                 <div class="services-three__content">
-                                    <p class="services-three__sub-title">Fitness</p>
-                                    <h3 class="services-three__title"><a href="#">Orthopaedics</a></h3>
-                                    <p class="services-three__text">we offer a wide range of medical services
-                                        designed
-                                        to meet the needs of patients at every stage of life.</p>
+                                    <p class="services-three__sub-title">Chirurgie</p>
+                                    <h3 class="services-three__title"><a href="#">Chirurgie Generală</a></h3>
+                                    <p class="services-three__text">Acest departament oferă evaluare clinică și management chirurgical, cu respectarea protocoalelor și a standardelor de siguranță.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Services Three Single End-->
+                    <!--Services Three Single Start-->
+                    <div class="swiper-slide">
+                        <div class="services-three__single">
+                            <div class="services-three__icon">
+                                <span class="icon-dermatology"></span>
+                            </div>
+                            <div class="services-three__single-inner">
+                                <div class="services-three__shape-1">
+                                    <img src="{{ asset('assets/images/shapes/services-three-shape-1.png') }}"
+                                        alt="">
+                                </div>
+                                <div class="services-three__count"></div>
+                                <div class="services-three__content">
+                                    <p class="services-three__sub-title">Piele</p>
+                                    <h3 class="services-three__title"><a href="#">Dermatologie</a></h3>
+                                    <p class="services-three__text">Departamentul de dermatologie oferă evaluare pentru afecțiuni ale pielii, părului și unghiilor, cu soluții adaptate fiecărei situații.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Services Three Single End-->
+                    <!--Services Three Single Start-->
+                    <div class="swiper-slide">
+                        <div class="services-three__single">
+                            <div class="services-three__icon">
+                                <span class="icon-medicine"></span>
+                            </div>
+                            <div class="services-three__single-inner">
+                                <div class="services-three__shape-1">
+                                    <img src="{{ asset('assets/images/shapes/services-three-shape-1.png') }}"
+                                        alt="">
+                                </div>
+                                <div class="services-three__count"></div>
+                                <div class="services-three__content">
+                                    <p class="services-three__sub-title">Digestiv</p>
+                                    <h3 class="services-three__title"><a href="#">Gastroenterologie</a></h3>
+                                    <p class="services-three__text">Departamentul de gastroenterologie asigură evaluarea simptomelor digestive și gestionarea afecțiunilor tractului gastrointestinal.</p>
                                 </div>
                             </div>
                         </div>
@@ -199,11 +235,9 @@
                                 </div>
                                 <div class="services-three__count"></div>
                                 <div class="services-three__content">
-                                    <p class="services-three__sub-title">Health</p>
-                                    <h3 class="services-three__title"><a href="#">Cardiology</a></h3>
-                                    <p class="services-three__text">we offer a wide range of medical services
-                                        designed
-                                        to meet the needs of patients at every stage of life.</p>
+                                    <p class="services-three__sub-title">Medicină internă</p>
+                                    <h3 class="services-three__title"><a href="#">Medicină Internă</a></h3>
+                                    <p class="services-three__text">Departamentul de medicină internă este dedicat evaluării și gestionării afecțiunilor generale, cu accent pe prevenție, diagnostic și tratament.</p>
                                 </div>
                             </div>
                         </div>
@@ -213,7 +247,7 @@
                     <div class="swiper-slide">
                         <div class="services-three__single">
                             <div class="services-three__icon">
-                                <span class="icon-intensive-care-unit"></span>
+                                <span class="icon-orthopaedics"></span>
                             </div>
                             <div class="services-three__single-inner">
                                 <div class="services-three__shape-1">
@@ -222,11 +256,93 @@
                                 </div>
                                 <div class="services-three__count"></div>
                                 <div class="services-three__content">
-                                    <p class="services-three__sub-title">Vitality</p>
-                                    <h3 class="services-three__title"><a href="#">Intensive Care</a></h3>
-                                    <p class="services-three__text">we offer a wide range of medical services
-                                        designed
-                                        to meet the needs of patients at every stage of life.</p>
+                                    <p class="services-three__sub-title">Aparat locomotor</p>
+                                    <h3 class="services-three__title"><a href="#">Ortopedie</a></h3>
+                                    <p class="services-three__text">Departamentul de ortopedie abordează evaluarea și gestionarea problemelor musculo-scheletale, cu focus pe mobilitate și funcție.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Services Three Single End-->
+                    <!--Services Three Single Start-->
+                    <div class="swiper-slide">
+                        <div class="services-three__single">
+                            <div class="services-three__icon">
+                                <span class="icon-medical-team"></span>
+                            </div>
+                            <div class="services-three__single-inner">
+                                <div class="services-three__shape-1">
+                                    <img src="{{ asset('assets/images/shapes/services-three-shape-1.png') }}"
+                                        alt="">
+                                </div>
+                                <div class="services-three__count"></div>
+                                <div class="services-three__content">
+                                    <p class="services-three__sub-title">ORL</p>
+                                    <h3 class="services-three__title"><a href="#">ORL</a></h3>
+                                    <p class="services-three__text">Departamentul ORL tratează afecțiuni ale urechii, nasului, gâtului și căilor respiratorii superioare.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Services Three Single End-->
+                    <!--Services Three Single Start-->
+                    <div class="swiper-slide">
+                        <div class="services-three__single">
+                            <div class="services-three__icon">
+                                <span class="icon-heart-rate"></span>
+                            </div>
+                            <div class="services-three__single-inner">
+                                <div class="services-three__shape-1">
+                                    <img src="{{ asset('assets/images/shapes/services-three-shape-1.png') }}"
+                                        alt="">
+                                </div>
+                                <div class="services-three__count"></div>
+                                <div class="services-three__content">
+                                    <p class="services-three__sub-title">Respirație</p>
+                                    <h3 class="services-three__title"><a href="#">Pneumologie</a></h3>
+                                    <p class="services-three__text">Departamentul de pneumologie se ocupă cu evaluarea și tratamentul afecțiunilor respiratorii, inclusiv a celor cronice.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Services Three Single End-->
+                    <!--Services Three Single Start-->
+                    <div class="swiper-slide">
+                        <div class="services-three__single">
+                            <div class="services-three__icon">
+                                <span class="icon-brain"></span>
+                            </div>
+                            <div class="services-three__single-inner">
+                                <div class="services-three__shape-1">
+                                    <img src="{{ asset('assets/images/shapes/services-three-shape-1.png') }}"
+                                        alt="">
+                                </div>
+                                <div class="services-three__count"></div>
+                                <div class="services-three__content">
+                                    <p class="services-three__sub-title">Sănătate mentală</p>
+                                    <h3 class="services-three__title"><a href="#">Psihiatrie</a></h3>
+                                    <p class="services-three__text">Departamentul de psihiatrie asigură evaluarea și îndrumarea pentru tulburările mentale și emoționale.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Services Three Single End-->
+                    <!--Services Three Single Start-->
+                    <div class="swiper-slide">
+                        <div class="services-three__single">
+                            <div class="services-three__icon">
+                                <span class="icon-physical-therapy"></span>
+                            </div>
+                            <div class="services-three__single-inner">
+                                <div class="services-three__shape-1">
+                                    <img src="{{ asset('assets/images/shapes/services-three-shape-1.png') }}"
+                                        alt="">
+                                </div>
+                                <div class="services-three__count"></div>
+                                <div class="services-three__content">
+                                    <p class="services-three__sub-title">Recuperare</p>
+                                    <h3 class="services-three__title"><a href="#">Recuperare Medicală</a></h3>
+                                    <p class="services-three__text">Departamentul de recuperare medicală are rolul de a sprijini refacerea funcțională și revenirea la o stare optimă de sănătate.</p>
                                 </div>
                             </div>
                         </div>

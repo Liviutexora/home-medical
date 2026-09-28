@@ -61,7 +61,7 @@
                         <div class="service-details__img"><img src="{{ asset('assets/images/services/service-details-img-1.jpg') }}" alt=""></div>
                         <h3 class="service-details__title-1">Dermatologie</h3>
                         <p class="service-details__text-1">Departamentul de dermatologie oferă evaluare pentru afecțiuni ale pielii, părului și unghiilor, cu soluții adaptate fiecărei situații.</p>
-                        <p class="service-details__text-2">Detaliile medicale vor fi completate ulterior, însă structura și linkurile paginii sunt în funcțiune.</p>
+                        <p class="service-details__text-2">Dermatologia se concentrează pe evaluarea, diagnosticarea și monitorizarea afecțiunilor pielii, părului și unghiilor. O abordare atentă și individualizată contribuie la identificarea corectă a problemelor dermatologice și la stabilirea conduitei medicale potrivite.</p>
                         <ul class="service-details__points-list list-unstyled">
                             <li><div class="icon"><span class="icon-check"></span></div><p>Consult medical de specialitate.</p></li>
                             <li><div class="icon"><span class="icon-check"></span></div><p>Diagnostic și plan de tratament.</p></li>

@@ -1,8 +1,5 @@
 <ul class="main-menu__list">
     <li>
-        <a href="{{ route('index') }}">Acasă</a>
-    </li>
-    <li>
         <a href="{{ route('about-v-3') }}">Despre noi</a>
     </li>
     <li>

@@ -43,7 +43,7 @@
                         <div class="service-details__img"><img src="{{ asset('assets/images/services/service-details-img-1.jpg') }}" alt=""></div>
                         <h3 class="service-details__title-1">Medicină internă</h3>
                         <p class="service-details__text-1">Departamentul de medicină internă este dedicat evaluării și gestionării afecțiunilor generale, cu accent pe prevenție, diagnostic și tratament.</p>
-                        <p class="service-details__text-2">Conținutul specific va fi completat ulterior, însă structura acestei pagini este gata pentru detaliere ulterioară.</p>
+                        <p class="service-details__text-2">Medicina internă oferă o abordare complexă a stării generale de sănătate și a afecțiunilor organelor interne. Evaluarea clinică integrată permite o perspectivă de ansamblu asupra pacientului și contribuie la stabilirea unei conduite medicale personalizate.</p>
                         <ul class="service-details__points-list list-unstyled">
                             <li><div class="icon"><span class="icon-check"></span></div><p>Consult internist.</p></li>
                             <li><div class="icon"><span class="icon-check"></span></div><p>Diagnostic și monitorizare.</p></li>

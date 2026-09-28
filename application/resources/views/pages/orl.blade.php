@@ -43,7 +43,7 @@
                         <div class="service-details__img"><img src="{{ asset('assets/images/services/service-details-img-1.jpg') }}" alt=""></div>
                         <h3 class="service-details__title-1">ORL</h3>
                         <p class="service-details__text-1">Departamentul ORL tratează afecțiuni ale urechii, nasului, gâtului și căilor respiratorii superioare.</p>
-                        <p class="service-details__text-2">Detaliile medicale vor fi completate ulterior, dar structura paginii de detalii este deja pregătită.</p>
+                        <p class="service-details__text-2">Specialitatea ORL se ocupă de evaluarea afecțiunilor urechii, nasului, sinusurilor, gâtului și căilor respiratorii superioare. Consultația medicală urmărește identificarea corectă a cauzelor simptomelor și orientarea către conduita potrivită pentru fiecare pacient.</p>
                         <ul class="service-details__points-list list-unstyled">
                             <li><div class="icon"><span class="icon-check"></span></div><p>Consult ORL.</p></li>
                             <li><div class="icon"><span class="icon-check"></span></div><p>Evaluare și diagnostic.</p></li>

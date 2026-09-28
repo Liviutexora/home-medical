@@ -43,7 +43,7 @@
                         <div class="service-details__img"><img src="{{ asset('assets/images/services/service-details-img-1.jpg') }}" alt=""></div>
                         <h3 class="service-details__title-1">Psihiatrie</h3>
                         <p class="service-details__text-1">Departamentul de psihiatrie asigură evaluarea și îndrumarea pentru tulburările mentale și emoționale.</p>
-                        <p class="service-details__text-2">Structura și linkurile sunt create pentru a permite dezvoltarea ulterioară a conținutului specific.</p>
+                        <p class="service-details__text-2">Psihiatria se concentrează asupra evaluării și monitorizării sănătății mintale și a tulburărilor care pot influența starea emoțională, comportamentul și calitatea vieții. Consultația se desfășoară într-un cadru medical bazat pe atenție, discreție și abordare individualizată.</p>
                         <ul class="service-details__points-list list-unstyled">
                             <li><div class="icon"><span class="icon-check"></span></div><p>Consult psihiatric.</p></li>
                             <li><div class="icon"><span class="icon-check"></span></div><p>Evaluare și plan de tratament.</p></li>

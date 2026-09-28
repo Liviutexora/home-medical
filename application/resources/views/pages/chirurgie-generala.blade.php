@@ -72,7 +72,7 @@
                         </div>
                         <h3 class="service-details__title-1">Chirurgie generală</h3>
                         <p class="service-details__text-1">Acest departament oferă evaluare clinică și management chirurgical, cu respectarea protocoalelor și a standardelor de siguranță.</p>
-                        <p class="service-details__text-2">Structura detaliată va fi adaptată ulterior, însă pagina de detalii este deja creată și funcțională pentru acest departament.</p>
+                        <p class="service-details__text-2">Chirurgia generală oferă evaluare clinică și orientare medicală pentru afecțiunile care necesită o abordare chirurgicală. Fiecare pacient beneficiază de o evaluare individualizată, în funcție de particularitățile și necesitățile sale medicale.</p>
                         <ul class="service-details__points-list list-unstyled">
                             <li><div class="icon"><span class="icon-check"></span></div><p>Evaluare inițială și diagnostic.</p></li>
                             <li><div class="icon"><span class="icon-check"></span></div><p>Plan de tratament individualizat.</p></li>

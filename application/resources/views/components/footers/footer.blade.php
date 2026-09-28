@@ -86,7 +86,7 @@
                                                     Fișe medicale tip A(B) · Port armă</h5>
                                             </li>
                                             <li>
-                                                <h5><a href="https://maps.app.goo.gl/dVyGtGinTZFE6Biw6" target="_blank" rel="noopener noreferrer">Vezi locația pe Google Maps →</a></h5>
+                                                <h5 style="font-size: 1.0em;"><a href="https://maps.app.goo.gl/dVyGtGinTZFE6Biw6" target="_blank" rel="noopener noreferrer"><strong>Vezi pe hartă →</strong></a></h5>
                                             </li>
                                         </ul>
                                     </div>
@@ -94,7 +94,7 @@
                                 <div class="col-xl-12">
                                     <div class="footer-widget__gallery-box">
                                         <div class="footer-widget__gallery-title">
-                                            <h3>Our Gallery</h3>
+                                            <h3>GALERIE FOTO</h3>
                                         </div>
                                         <div class="footer-widget__gallery">
                                             <ul class="footer-widget__gallery-list">
