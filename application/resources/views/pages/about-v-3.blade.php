@@ -368,6 +368,7 @@
             style="background-image: url({{ asset('assets/images/shapes/brand-one-shape-bg.png') }});"></div>
         <div class="container">
             <div class="brand-one__carousel owl-carousel owl-theme">
+                {{--
                 <!--Start Brand One Single-->
                 <div class="brand-one__single">
                     <div class="brand-one__single-inner">
@@ -412,6 +413,7 @@
                     </div>
                 </div>
                 <!--End Brand One Single-->
+                --}}
             </div>
         </div>
     </section>
@@ -423,9 +425,9 @@
             <div class="section-title text-left sec-title-animation animation-style1">
                 <div class="section-title__tagline-box">
                     <span class="icon-pharmacy"></span>
-                    <p class="section-title__tagline">Professional Care Team</p>
+                    <p class="section-title__tagline">ECHIPA MEDICALĂ</p>
                 </div>
-                <h2 class="section-title__title title-animation">Meet Our Medical <span>Professionals</span> </h2>
+                <h2 class="section-title__title title-animation">Faceți cunoștință cu echipa noastră</h2>
             </div>
             <div class="team-three__inner">
                 <div class="team-three__shape-1"></div>
@@ -809,6 +811,7 @@
     </section>
     <!--Blog Three End-->
     --}}
+    @if(false)
     <!--Location One start-->
     <section class="location-one">
         <div class="container">
@@ -969,5 +972,6 @@
         </div>
     </section>
     <!--Location One End-->
+    @endif
 
 @endsection
