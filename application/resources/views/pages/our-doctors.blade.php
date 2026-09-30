@@ -34,199 +34,7 @@
                 </div>
             </div>
             <div class="row filter-layout">
-                <!--Team Two Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item medicina-interna">
-                    <div class="team-two__single">
-                        <div class="team-two__img-box">
-                            <div class="team-two__img">
-                                <img src="{{ asset('assets/images/Galerie-HM/111.jpg') }}" alt="Oniciu Marciana Alexandra">
-                            </div>
-                            <div class="team-two__arrow-and-social">
-                                <div class="team-two__arrow">
-                                    <span class="fas fa-share-alt"></span>
-                                </div>
-                                <ul class="team-two__social list-unstyled">
-                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
-                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-two__content">
-                            <p class="team-two__designation">Medicină internă</p>
-                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'oniciu-marciana-alexandra']) }}">Oniciu Marciana Alexandra</a></h3>
-                        </div>
-                    </div>
-                </div>
-                <!--Team Two Single End -->
-                <!--Team Two Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item orl">
-                    <div class="team-two__single">
-                        <div class="team-two__img-box">
-                            <div class="team-two__img">
-                                <img src="{{ asset('assets/images/Galerie-HM/222.jpg') }}" alt="Dumitru Cristina Ștefania">
-                            </div>
-                            <div class="team-two__arrow-and-social">
-                                <div class="team-two__arrow">
-                                    <span class="fas fa-share-alt"></span>
-                                </div>
-                                <ul class="team-two__social list-unstyled">
-                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
-                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-two__content">
-                            <p class="team-two__designation">ORL</p>
-                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'dumitru-cristina-stefania']) }}">Dumitru Cristina Ștefania</a></h3>
-                        </div>
-                    </div>
-                </div>
-                <!--Team Two Single End -->
-                <!--Team Two Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item dermatologie">
-                    <div class="team-two__single">
-                        <div class="team-two__img-box">
-                            <div class="team-two__img">
-                                <img src="{{ asset('assets/images/Galerie-HM/333.jpg') }}" alt="Agajani Heshmatollah">
-                            </div>
-                            <div class="team-two__arrow-and-social">
-                                <div class="team-two__arrow">
-                                    <span class="fas fa-share-alt"></span>
-                                </div>
-                                <ul class="team-two__social list-unstyled">
-                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
-                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-two__content">
-                            <p class="team-two__designation">Dermatologie</p>
-                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'agajani-heshmatollah']) }}">Agajani Heshmatollah</a></h3>
-                        </div>
-                    </div>
-                </div>
-                <!--Team Two Single End -->
-                <!--Team Two Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item psihiatrie">
-                    <div class="team-two__single">
-                        <div class="team-two__img-box">
-                            <div class="team-two__img">
-                                <img src="{{ asset('assets/images/Galerie-HM/444.jpg') }}" alt="Ciobanu Andra Vera Livia">
-                            </div>
-                            <div class="team-two__arrow-and-social">
-                                <div class="team-two__arrow">
-                                    <span class="fas fa-share-alt"></span>
-                                </div>
-                                <ul class="team-two__social list-unstyled">
-                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
-                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-two__content">
-                            <p class="team-two__designation">Psihiatrie</p>
-                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'ciobanu-andra-vera-livia']) }}">Ciobanu Andra Vera Livia</a></h3>
-                        </div>
-                    </div>
-                </div>
-                <!--Team Two Single End -->
-                <!--Team Two Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item pneumologie">
-                    <div class="team-two__single">
-                        <div class="team-two__img-box">
-                            <div class="team-two__img">
-                                <img src="{{ asset('assets/images/Galerie-HM/555.jpg') }}" alt="Buță Marius Cătălin">
-                            </div>
-                            <div class="team-two__arrow-and-social">
-                                <div class="team-two__arrow">
-                                    <span class="fas fa-share-alt"></span>
-                                </div>
-                                <ul class="team-two__social list-unstyled">
-                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
-                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-two__content">
-                            <p class="team-two__designation">Pneumologie</p>
-                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'buta-marius-catalin']) }}">Buță Marius Cătălin</a></h3>
-                        </div>
-                    </div>
-                </div>
-                <!--Team Two Single End -->
-                <!--Team Two Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item gastroenterologie">
-                    <div class="team-two__single">
-                        <div class="team-two__img-box">
-                            <div class="team-two__img">
-                                <img src="{{ asset('assets/images/Galerie-HM/666.jpg') }}" alt="Abdel Majid Damra">
-                            </div>
-                            <div class="team-two__arrow-and-social">
-                                <div class="team-two__arrow">
-                                    <span class="fas fa-share-alt"></span>
-                                </div>
-                                <ul class="team-two__social list-unstyled">
-                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
-                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-two__content">
-                            <p class="team-two__designation">Gastroenterologie</p>
-                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'abdel-majid-damra']) }}">Abdel Majid Damra</a></h3>
-                        </div>
-                    </div>
-                </div>
-                <!--Team Two Single End -->
-                <!--Team Two Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item recuperare-medicala">
-                    <div class="team-two__single">
-                        <div class="team-two__img-box">
-                            <div class="team-two__img">
-                                <img src="{{ asset('assets/images/Galerie-HM/777.jpg') }}" alt="Țălan Claudia Loredana">
-                            </div>
-                            <div class="team-two__arrow-and-social">
-                                <div class="team-two__arrow">
-                                    <span class="fas fa-share-alt"></span>
-                                </div>
-                                <ul class="team-two__social list-unstyled">
-                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
-                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-two__content">
-                            <p class="team-two__designation">Recuperare medicală</p>
-                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'talan-claudia-loredana']) }}">Țălan Claudia Loredana</a></h3>
-                        </div>
-                    </div>
-                </div>
-                <!--Team Two Single End -->
-                <!--Team Two Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item medicina-interna">
-                    <div class="team-two__single">
-                        <div class="team-two__img-box">
-                            <div class="team-two__img">
-                                <img src="{{ asset('assets/images/Galerie-HM/888.jpg') }}" alt="Ilin Simona Ramona">
-                            </div>
-                            <div class="team-two__arrow-and-social">
-                                <div class="team-two__arrow">
-                                    <span class="fas fa-share-alt"></span>
-                                </div>
-                                <ul class="team-two__social list-unstyled">
-                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
-                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-two__content">
-                            <p class="team-two__designation">Medicină internă</p>
-                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'ilin-simona-ramona']) }}">Ilin Simona Ramona</a></h3>
-                        </div>
-                    </div>
-                </div>
-                <!--Team Two Single End -->
-                <!--Team Two Single Start -->
+<!--Team Two Single Start -->
                 <div class="col-xl-3 col-lg-6 col-md-6 filter-item chirurgie-generala">
                     <div class="team-two__single">
                         <div class="team-two__img-box">
@@ -250,79 +58,7 @@
                     </div>
                 </div>
                 <!--Team Two Single End -->
-                <!--Team Two Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item gastroenterologie">
-                    <div class="team-two__single">
-                        <div class="team-two__img-box">
-                            <div class="team-two__img">
-                                <img src="{{ asset('assets/images/Galerie-HM/100.jpg') }}" alt="Burdan Ghiță Adrian">
-                            </div>
-                            <div class="team-two__arrow-and-social">
-                                <div class="team-two__arrow">
-                                    <span class="fas fa-share-alt"></span>
-                                </div>
-                                <ul class="team-two__social list-unstyled">
-                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
-                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-two__content">
-                            <p class="team-two__designation">Gastroenterologie</p>
-                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'burdan-ghita-adrian']) }}">Burdan Ghiță Adrian</a></h3>
-                        </div>
-                    </div>
-                </div>
-                <!--Team Two Single End -->
-                <!--Team Two Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item ortopedie">
-                    <div class="team-two__single">
-                        <div class="team-two__img-box">
-                            <div class="team-two__img">
-                                <img src="{{ asset('assets/images/Galerie-HM/1111.jpg') }}" alt="Drira Ouassim">
-                            </div>
-                            <div class="team-two__arrow-and-social">
-                                <div class="team-two__arrow">
-                                    <span class="fas fa-share-alt"></span>
-                                </div>
-                                <ul class="team-two__social list-unstyled">
-                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
-                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-two__content">
-                            <p class="team-two__designation">Ortopedie</p>
-                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'drira-ouassim']) }}">Drira Ouassim</a></h3>
-                        </div>
-                    </div>
-                </div>
-                <!--Team Two Single End -->
-                <!--Team Two Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item ortopedie">
-                    <div class="team-two__single">
-                        <div class="team-two__img-box">
-                            <div class="team-two__img">
-                                <img src="{{ asset('assets/images/Galerie-HM/1222.jpg') }}" alt="Mușat Ionuț Marian">
-                            </div>
-                            <div class="team-two__arrow-and-social">
-                                <div class="team-two__arrow">
-                                    <span class="fas fa-share-alt"></span>
-                                </div>
-                                <ul class="team-two__social list-unstyled">
-                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
-                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-two__content">
-                            <p class="team-two__designation">Ortopedie</p>
-                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'musat-ionut-marian']) }}">Mușat Ionuț Marian</a></h3>
-                        </div>
-                    </div>
-                </div>
-                <!--Team Two Single End -->
-                <!--Team Two Single Start -->
+<!--Team Two Single Start -->
                 <div class="col-xl-3 col-lg-6 col-md-6 filter-item chirurgie-generala">
                     <div class="team-two__single">
                         <div class="team-two__img-box">
@@ -346,8 +82,271 @@
                     </div>
                 </div>
                 <!--Team Two Single End -->
-
-                {{--
+<!--Team Two Single Start -->
+                <div class="col-xl-3 col-lg-6 col-md-6 filter-item gastroenterologie">
+                    <div class="team-two__single">
+                        <div class="team-two__img-box">
+                            <div class="team-two__img">
+                                <img src="{{ asset('assets/images/Galerie-HM/666.jpg') }}" alt="Abdel Majid Damra">
+                            </div>
+                            <div class="team-two__arrow-and-social">
+                                <div class="team-two__arrow">
+                                    <span class="fas fa-share-alt"></span>
+                                </div>
+                                <ul class="team-two__social list-unstyled">
+                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-two__content">
+                            <p class="team-two__designation">Gastroenterologie</p>
+                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'abdel-majid-damra']) }}">Abdel Majid Damra</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!--Team Two Single End -->
+<!--Team Two Single Start -->
+                <div class="col-xl-3 col-lg-6 col-md-6 filter-item gastroenterologie">
+                    <div class="team-two__single">
+                        <div class="team-two__img-box">
+                            <div class="team-two__img">
+                                <img src="{{ asset('assets/images/Galerie-HM/100.jpg') }}" alt="Burdan Ghiță Adrian">
+                            </div>
+                            <div class="team-two__arrow-and-social">
+                                <div class="team-two__arrow">
+                                    <span class="fas fa-share-alt"></span>
+                                </div>
+                                <ul class="team-two__social list-unstyled">
+                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-two__content">
+                            <p class="team-two__designation">Gastroenterologie</p>
+                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'burdan-ghita-adrian']) }}">Burdan Ghiță Adrian</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!--Team Two Single End -->
+<!--Team Two Single Start -->
+                <div class="col-xl-3 col-lg-6 col-md-6 filter-item ortopedie">
+                    <div class="team-two__single">
+                        <div class="team-two__img-box">
+                            <div class="team-two__img">
+                                <img src="{{ asset('assets/images/Galerie-HM/1111.jpg') }}" alt="Drira Ouassim">
+                            </div>
+                            <div class="team-two__arrow-and-social">
+                                <div class="team-two__arrow">
+                                    <span class="fas fa-share-alt"></span>
+                                </div>
+                                <ul class="team-two__social list-unstyled">
+                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-two__content">
+                            <p class="team-two__designation">Ortopedie</p>
+                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'drira-ouassim']) }}">Drira Ouassim</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!--Team Two Single End -->
+<!--Team Two Single Start -->
+                <div class="col-xl-3 col-lg-6 col-md-6 filter-item ortopedie">
+                    <div class="team-two__single">
+                        <div class="team-two__img-box">
+                            <div class="team-two__img">
+                                <img src="{{ asset('assets/images/Galerie-HM/1222.jpg') }}" alt="Mușat Ionuț Marian">
+                            </div>
+                            <div class="team-two__arrow-and-social">
+                                <div class="team-two__arrow">
+                                    <span class="fas fa-share-alt"></span>
+                                </div>
+                                <ul class="team-two__social list-unstyled">
+                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-two__content">
+                            <p class="team-two__designation">Ortopedie</p>
+                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'musat-ionut-marian']) }}">Mușat Ionuț Marian</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!--Team Two Single End -->
+<!--Team Two Single Start -->
+                <div class="col-xl-3 col-lg-6 col-md-6 filter-item psihiatrie">
+                    <div class="team-two__single">
+                        <div class="team-two__img-box">
+                            <div class="team-two__img">
+                                <img src="{{ asset('assets/images/Galerie-HM/444.jpg') }}" alt="Ciobanu Andra Vera Livia">
+                            </div>
+                            <div class="team-two__arrow-and-social">
+                                <div class="team-two__arrow">
+                                    <span class="fas fa-share-alt"></span>
+                                </div>
+                                <ul class="team-two__social list-unstyled">
+                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-two__content">
+                            <p class="team-two__designation">Psihiatrie</p>
+                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'ciobanu-andra-vera-livia']) }}">Ciobanu Andra Vera Livia</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!--Team Two Single End -->
+<!--Team Two Single Start -->
+                <div class="col-xl-3 col-lg-6 col-md-6 filter-item pneumologie">
+                    <div class="team-two__single">
+                        <div class="team-two__img-box">
+                            <div class="team-two__img">
+                                <img src="{{ asset('assets/images/Galerie-HM/555.jpg') }}" alt="Buță Marius Cătălin">
+                            </div>
+                            <div class="team-two__arrow-and-social">
+                                <div class="team-two__arrow">
+                                    <span class="fas fa-share-alt"></span>
+                                </div>
+                                <ul class="team-two__social list-unstyled">
+                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-two__content">
+                            <p class="team-two__designation">Pneumologie</p>
+                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'buta-marius-catalin']) }}">Buță Marius Cătălin</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!--Team Two Single End -->
+<!--Team Two Single Start -->
+                <div class="col-xl-3 col-lg-6 col-md-6 filter-item orl">
+                    <div class="team-two__single">
+                        <div class="team-two__img-box">
+                            <div class="team-two__img">
+                                <img src="{{ asset('assets/images/Galerie-HM/222.jpg') }}" alt="Dumitru Cristina Ștefania">
+                            </div>
+                            <div class="team-two__arrow-and-social">
+                                <div class="team-two__arrow">
+                                    <span class="fas fa-share-alt"></span>
+                                </div>
+                                <ul class="team-two__social list-unstyled">
+                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-two__content">
+                            <p class="team-two__designation">ORL</p>
+                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'dumitru-cristina-stefania']) }}">Dumitru Cristina Ștefania</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!--Team Two Single End -->
+<!--Team Two Single Start -->
+                <div class="col-xl-3 col-lg-6 col-md-6 filter-item dermatologie">
+                    <div class="team-two__single">
+                        <div class="team-two__img-box">
+                            <div class="team-two__img">
+                                <img src="{{ asset('assets/images/Galerie-HM/333.jpg') }}" alt="Agajani Heshmatollah">
+                            </div>
+                            <div class="team-two__arrow-and-social">
+                                <div class="team-two__arrow">
+                                    <span class="fas fa-share-alt"></span>
+                                </div>
+                                <ul class="team-two__social list-unstyled">
+                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-two__content">
+                            <p class="team-two__designation">Dermatologie</p>
+                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'agajani-heshmatollah']) }}">Agajani Heshmatollah</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!--Team Two Single End -->
+<!--Team Two Single Start -->
+                <div class="col-xl-3 col-lg-6 col-md-6 filter-item medicina-interna">
+                    <div class="team-two__single">
+                        <div class="team-two__img-box">
+                            <div class="team-two__img">
+                                <img src="{{ asset('assets/images/Galerie-HM/888.jpg') }}" alt="Ilin Simona Ramona">
+                            </div>
+                            <div class="team-two__arrow-and-social">
+                                <div class="team-two__arrow">
+                                    <span class="fas fa-share-alt"></span>
+                                </div>
+                                <ul class="team-two__social list-unstyled">
+                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-two__content">
+                            <p class="team-two__designation">Medicină internă</p>
+                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'ilin-simona-ramona']) }}">Ilin Simona Ramona</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!--Team Two Single End -->
+<!--Team Two Single Start -->
+                <div class="col-xl-3 col-lg-6 col-md-6 filter-item medicina-interna">
+                    <div class="team-two__single">
+                        <div class="team-two__img-box">
+                            <div class="team-two__img">
+                                <img src="{{ asset('assets/images/Galerie-HM/111.jpg') }}" alt="Oniciu Marciana Alexandra">
+                            </div>
+                            <div class="team-two__arrow-and-social">
+                                <div class="team-two__arrow">
+                                    <span class="fas fa-share-alt"></span>
+                                </div>
+                                <ul class="team-two__social list-unstyled">
+                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-two__content">
+                            <p class="team-two__designation">Medicină internă</p>
+                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'oniciu-marciana-alexandra']) }}">Oniciu Marciana Alexandra</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!--Team Two Single End -->
+<!--Team Two Single Start -->
+                <div class="col-xl-3 col-lg-6 col-md-6 filter-item recuperare-medicala">
+                    <div class="team-two__single">
+                        <div class="team-two__img-box">
+                            <div class="team-two__img">
+                                <img src="{{ asset('assets/images/Galerie-HM/777.jpg') }}" alt="Țălan Claudia Loredana">
+                            </div>
+                            <div class="team-two__arrow-and-social">
+                                <div class="team-two__arrow">
+                                    <span class="fas fa-share-alt"></span>
+                                </div>
+                                <ul class="team-two__social list-unstyled">
+                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-two__content">
+                            <p class="team-two__designation">Recuperare medicală</p>
+                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'talan-claudia-loredana']) }}">Țălan Claudia Loredana</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!--Team Two Single End -->
+</div>{{--
                 <!--Team Two Single Start -->
                 <div class="col-xl-3 col-lg-6 col-md-6 filter-item traumatology">
                     <div class="team-two__single">
