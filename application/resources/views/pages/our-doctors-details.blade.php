@@ -68,11 +68,24 @@ Acordă o atenție deosebită evaluării corecte a fiecărui pacient și unei ab
                                     'abdel-majid-damra' => 'Medic specialist gastroenterolog, preocupat de diagnosticarea și tratamentul afecțiunilor digestive și hepatice. Oferă servicii de diagnostic și evaluare utilizând investigații moderne, precum ecografia abdominală și endoscopia digestivă superioară și inferioară. Pune accent pe o îngrijire atentă și empatică, într-un mediu sigur, bazat pe atenție la detalii și comunicare deschisă cu pacientul.',
                                     'ilin-simona-ramona' => 'Medic specialist în Medicină Internă, cu o perspectivă integrată asupra stării de sănătate a pacientului. În practica medicală acordă atenție identificării cauzelor simptomelor, corelării informațiilor clinice și investigațiilor și stabilirii unui plan medical adaptat fiecărui pacient. Experiența sa include evaluarea patologiilor cardiovasculare, respiratorii, metabolice, renale și digestive, precum și a pacienților cu patologii multiple. Consideră importantă comunicarea clară cu pacientul și explicarea diagnosticului și a investigațiilor.',
                                     'burdan-ghita-adrian' => 'Medic specialist gastroenterolog, cu experiență în diagnosticarea și tratarea afecțiunilor digestive. Activitatea sa include evaluarea pacienților și utilizarea investigațiilor specifice gastroenterologiei, cu experiență în endoscopie digestivă diagnostică și terapeutică și ecografie abdominală. Abordarea medicală urmărește identificarea corectă a problemei și stabilirea unei conduite adaptate fiecărui pacient.',
+                                    'agajani-heshmatollah' => 'Medic primar dermato-venerologie, cu o experiență solidă în diagnosticarea și tratarea afecțiunilor pielii, părului și unghiilor. Pasionat de sănătatea cutanată, oferă soluții personalizate atât pentru afecțiunile dermatologice clasice, cât și pentru proceduri avansate de dermato-chirurgie și dermatologie estetică. Pune accent pe o abordare adaptată nevoilor fiecărui pacient, considerând că sănătatea pielii este strâns legată de starea generală de bine.',
                                     'musat-ionut-marian' => 'Medic specialist ortoped, cu experiență în diagnosticarea și tratarea afecțiunilor musculo-scheletale, cu un interes deosebit pentru chirurgia artroscopică și patologia genunchiului. A urmat cursuri de formare și perfecționare în tehnici moderne de artroscopie, chirurgie reconstructivă și tratamentul traumatismelor. Activitatea sa se extinde asupra mai multor segmente ale ortopediei și traumatologiei, cu accent pe soluții personalizate pentru fiecare pacient și pe recuperarea funcțională și calitatea vieții.',
+                                    'drira-ouassim' => 'Medic specialist în Ortopedie-Traumatologie și Recuperare Medicală, Medicină Fizică și Balneologie, doctor în medicină, cu o abordare centrată pe fiecare pacient și pe identificarea corectă a diagnosticului. Consideră că un diagnostic precis reprezintă baza unui tratament sigur și eficient, adaptat nevoilor individuale ale pacientului.
+
+Ortopedia este un domeniu aflat la intersecția funcției și mișcării, în care experiența medicală, știința și empatia au un rol important. Abordarea afecțiunilor ortopedice și traumatice presupune înțelegerea complexă a mecanismelor care influențează recuperarea și revenirea pacientului la activitățile cotidiene și profesionale.
+
+Acordă o atenție deosebită pacienților cu afecțiuni degenerative, pentru care consideră esențiale o atitudine atentă, răbdarea, înțelegerea și empatia.',
+                                    'talan-claudia-loredana' => 'În activitatea medicală acordă atenție înțelegerii fiecărui pacient în ansamblu, pentru ca evaluarea și schema de tratament să fie adaptate nevoilor individuale. Abordarea urmărește sprijinirea unei recuperări cât mai eficiente, prin îmbunătățirea mobilității articulare și reducerea durerii și a inflamației. Scopul este de a contribui la recâștigarea funcționalității și la îmbunătățirea stării generale de sănătate a pacientului.',
+                                    'ciobanu-andra-vera-livia' => 'Medic specialist psihiatru, cu o abordare calmă, empatică și atentă la nevoile fiecărui pacient. Își propune să ofere un spațiu sigur, bazat pe încredere, răbdare și respect, în care fiecare persoană să se simtă ascultată și înțeleasă.',
+                                    'marginean-andrei' => 'Medic specialist în Chirurgie Generală, cu interes pentru chirurgia oncoplastică a sânului. Abordarea sa medicală urmărește evaluarea atentă a fiecărui pacient și alegerea unei conduite adaptate nevoilor individuale.',
+                                    'buta-marius-catalin' => 'Medic empatic și atent, preocupat de nevoile fiecărui pacient. În activitatea medicală acordă importanță unei evaluări atente și unei abordări adaptate fiecărei persoane. În domeniul pneumologiei, o atenție deosebită este acordată sănătății aparatului respirator și identificării corecte a problemelor care pot afecta respirația și calitatea vieții. Comunicarea, răbdarea și înțelegerea pacientului reprezintă elemente importante ale unei relații medicale bazate pe încredere.',
                                     default => '3–5 propoziții despre medic, experiență și domeniul de activitate.',
                                 };
                             @endphp
                             <p class="team-details__bottom-text">{{ $doctorBiography }}</p>
+                            @if (($doctor['slug'] ?? null) === 'agajani-heshmatollah')
+                                <p class="team-details__bottom-text"><strong>Motto:</strong> „O piele sănătoasă este reflectarea stării noastre de bine”</p>
+                            @endif
                             <div class="team-details__practice-area">
                                 <h4 class="team-details__practice-area-title">Servicii oferite</h4>
                                 <div class="team-details__practice-area-list-box">
@@ -106,6 +119,8 @@ Acordă o atenție deosebită evaluării corecte a fiecărui pacient și unei ab
                                             'marginean-andrei' => [
                                                 'Anestezie locală',
                                                 'Consultație',
+                                                'Ecografie mamară',
+                                                'Chirurgie oncologică',
                                                 'Excizie formațiuni tumorale tegumentare superficiale',
                                                 'Incizie abces perianal',
                                                 'Incizie abcese flegmoane',
@@ -119,7 +134,6 @@ Acordă o atenție deosebită evaluării corecte a fiecărui pacient și unei ab
                                                 'Trombectomie externă',
                                                 'Biopsie sân',
                                                 'Clip mamar',
-                                                'Ecografie mamară',
                                             ],
                                             'talan-claudia-loredana' => [
                                                 'Recuperare medicală',

@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-xl-8 col-lg-7">
                     <div class="service-details__left">
-                        <div class="service-details__img"><img src="{{ asset('assets/images/services/service-details-img-1.jpg') }}" alt=""></div>
+                        <div class="service-details__img"><img src="{{ asset('assets/images/HM-servicii/4.jpg') }}" alt=""></div>
                         <h3 class="service-details__title-1">Gastroenterologie</h3>
                         <p class="service-details__text-1">Departamentul de gastroenterologie asigură evaluarea simptomelor digestive și gestionarea afecțiunilor tractului gastrointestinal.</p>
                         <p class="service-details__text-2">Gastroenterologia se ocupă de evaluarea și monitorizarea afecțiunilor aparatului digestiv. Consultația medicală urmărește identificarea cauzelor simptomelor și orientarea pacientului către investigațiile și conduita terapeutică adecvate.</p>

@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-xl-8 col-lg-7">
                     <div class="service-details__left">
-                        <div class="service-details__img"><img src="{{ asset('assets/images/services/service-details-img-1.jpg') }}" alt=""></div>
+                        <div class="service-details__img"><img src="{{ asset('assets/images/HM-servicii/6.jpg') }}" alt=""></div>
                         <h3 class="service-details__title-1">Ortopedie</h3>
                         <p class="service-details__text-1">Departamentul de ortopedie abordează evaluarea și gestionarea problemelor musculo-scheletale, cu focus pe mobilitate și funcție.</p>
                         <p class="service-details__text-2">Ortopedia se adresează evaluării afecțiunilor aparatului locomotor, cu accent pe sănătatea oaselor, articulațiilor și structurilor musculo-scheletale. Consultația urmărește identificarea problemei și stabilirea unei conduite medicale adaptate fiecărui pacient.</p>

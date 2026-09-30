@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-xl-8 col-lg-7">
                     <div class="service-details__left">
-                        <div class="service-details__img"><img src="{{ asset('assets/images/services/service-details-img-1.jpg') }}" alt=""></div>
+                        <div class="service-details__img"><img src="{{ asset('assets/images/HM-servicii/9.jpg') }}" alt=""></div>
                         <h3 class="service-details__title-1">Recuperare medicală</h3>
                         <p class="service-details__text-1">Departamentul de recuperare medicală are rolul de a sprijini refacerea funcțională și revenirea la o stare optimă de sănătate.</p>
                         <p class="service-details__text-2">Recuperarea medicală urmărește evaluarea și susținerea procesului de recuperare a funcțiilor afectate de diverse probleme medicale sau musculo-scheletale. Abordarea este individualizată, ținând cont de starea, nevoile și obiectivele fiecărui pacient.</p>

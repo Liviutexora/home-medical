@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-xl-8 col-lg-7">
                     <div class="service-details__left">
-                        <div class="service-details__img"><img src="{{ asset('assets/images/services/service-details-img-1.jpg') }}" alt=""></div>
+                        <div class="service-details__img"><img src="{{ asset('assets/images/HM-servicii/7.jpg') }}" alt=""></div>
                         <h3 class="service-details__title-1">Pneumologie</h3>
                         <p class="service-details__text-1">Departamentul de pneumologie se ocupă cu evaluarea și tratamentul afecțiunilor respiratorii, inclusiv a celor cronice.</p>
                         <p class="service-details__text-2">Pneumologia este dedicată evaluării și monitorizării afecțiunilor aparatului respirator. Printr-o evaluare clinică atentă, medicul urmărește identificarea problemelor respiratorii și stabilirea unei conduite medicale adaptate nevoilor pacientului.</p>

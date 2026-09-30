@@ -100,35 +100,35 @@
                                             <ul class="footer-widget__gallery-list">
                                                 <li>
                                                     <div class="footer-widget__gallery-img">
-                                                        <img src="{{ asset('assets/images/resources/footer-widget-gallery-1-1.jpg') }}"
+                                                        <img src="{{ asset('assets/images/HM-galerie/1.jpg') }}"
                                                             alt="">
                                                         <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="footer-widget__gallery-img">
-                                                        <img src="{{ asset('assets/images/resources/footer-widget-gallery-1-2.jpg') }}"
+                                                        <img src="{{ asset('assets/images/HM-galerie/2.jpg') }}"
                                                             alt="">
                                                         <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="footer-widget__gallery-img">
-                                                        <img src="{{ asset('assets/images/resources/footer-widget-gallery-1-3.jpg') }}"
+                                                        <img src="{{ asset('assets/images/HM-galerie/3.jpg') }}"
                                                             alt="">
                                                         <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="footer-widget__gallery-img">
-                                                        <img src="{{ asset('assets/images/resources/footer-widget-gallery-1-4.jpg') }}"
+                                                        <img src="{{ asset('assets/images/HM-galerie/4.jpg') }}"
                                                             alt="">
                                                         <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="footer-widget__gallery-img">
-                                                        <img src="{{ asset('assets/images/resources/footer-widget-gallery-1-5.jpg') }}"
+                                                        <img src="{{ asset('assets/images/HM-galerie/5.jpg') }}"
                                                             alt="">
                                                         <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a>
                                                     </div>

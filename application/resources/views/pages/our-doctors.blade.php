@@ -649,7 +649,6 @@
                 </div>
                 <!--Team Two Single End -->
                 --}}
-                --}}
             </div>
         </div>
     </section>

@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-xl-8 col-lg-7">
                     <div class="service-details__left">
-                        <div class="service-details__img"><img src="{{ asset('assets/images/services/service-details-img-1.jpg') }}" alt=""></div>
+                        <div class="service-details__img"><img src="{{ asset('assets/images/HM-servicii/5.jpg') }}" alt=""></div>
                         <h3 class="service-details__title-1">Psihiatrie</h3>
                         <p class="service-details__text-1">Departamentul de psihiatrie asigură evaluarea și îndrumarea pentru tulburările mentale și emoționale.</p>
                         <p class="service-details__text-2">Psihiatria se concentrează asupra evaluării și monitorizării sănătății mintale și a tulburărilor care pot influența starea emoțională, comportamentul și calitatea vieții. Consultația se desfășoară într-un cadru medical bazat pe atenție, discreție și abordare individualizată.</p>

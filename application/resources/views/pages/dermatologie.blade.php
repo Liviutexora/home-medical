@@ -58,7 +58,7 @@
                 </div>
                 <div class="col-xl-8 col-lg-7">
                     <div class="service-details__left">
-                        <div class="service-details__img"><img src="{{ asset('assets/images/services/service-details-img-1.jpg') }}" alt=""></div>
+                        <div class="service-details__img"><img src="{{ asset('assets/images/HM-servicii/2.jpg') }}" alt=""></div>
                         <h3 class="service-details__title-1">Dermatologie</h3>
                         <p class="service-details__text-1">Departamentul de dermatologie oferă evaluare pentru afecțiuni ale pielii, părului și unghiilor, cu soluții adaptate fiecărei situații.</p>
                         <p class="service-details__text-2">Dermatologia se concentrează pe evaluarea, diagnosticarea și monitorizarea afecțiunilor pielii, părului și unghiilor. O abordare atentă și individualizată contribuie la identificarea corectă a problemelor dermatologice și la stabilirea conduitei medicale potrivite.</p>

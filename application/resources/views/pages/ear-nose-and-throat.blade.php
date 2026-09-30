@@ -132,7 +132,7 @@
                 <div class="col-xl-8 col-lg-7">
                     <div class="service-details__left">
                         <div class="service-details__img">
-                            <img src="{{ asset('assets/images/services/service-details-img-4.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/HM-servicii/3.jpg') }}" alt="">
                         </div>
                         <h3 class="service-details__title-1">Ear Nose and Throat</h3>
                         <p class="service-details__text-1">Ut enim ad minim veniam, quis nostrud exercitation
