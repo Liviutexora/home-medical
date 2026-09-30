@@ -7,27 +7,14 @@
     <x-page-header pageTitle='Despre Noi' pageSubtitle='Despre Noi' />
 
     <!--About Three Start -->
-    <section class="about-three">
+    <section class="about-three home-medical-about">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6">
                     <div class="about-three__left wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                         <div class="about-three__img-box">
                             <div class="about-three__img">
-                                <img src="{{ asset('assets/images/resources/about-three-img-1.jpg') }}" alt="">
-                            </div>
-                            <div class="about-three__img-two">
-                                <img src="{{ asset('assets/images/resources/about-three-img-2.jpg') }}" alt="">
-                            </div>
-                            <div class="about-three__img-three">
-                                <img src="{{ asset('assets/images/resources/about-three-img-3.jpg') }}" alt="">
-                            </div>
-                            <div class="about-three__experience-box">
-                                <div class="about-three__experience-count">
-                                    <h3 class="odometer" data-count="25">00</h3>
-                                    <span>+</span>
-                                </div>
-                                <p class="about-three__experience-count-text">Years Of Experience</p>
+                                <img src="{{ asset('assets/images/HM-despre-noi/receptie.jpg') }}" alt="Home Medical reception">
                             </div>
                         </div>
                     </div>
@@ -37,75 +24,62 @@
                         <div class="section-title text-left sec-title-animation animation-style2">
                             <div class="section-title__tagline-box">
                                 <span class="icon-pharmacy"></span>
-                                <p class="section-title__tagline">About Our Hospital</p>
+                                <p class="section-title__tagline">DESPRE HOME MEDICAL</p>
                             </div>
-                            <h2 class="section-title__title title-animation">Leading the Way in Patient
-                                <span>Centered Care</span>
-                            </h2>
+                            <h2 class="section-title__title title-animation">Locul unde „HOME MEDICAL” înseamnă acasă pentru fiecare</h2>
                         </div>
-                        <p class="about-three__text">We are a patient-centered hospital dedicated to delivering
-                            world-class medical care through advanced technology & compassionate service. Our team
-                            of experienced doctors, nurses, & staff work together to ensure every patient receives
-                            personalized treatment in a safe and supportive environment.</p>
+                        <p class="about-three__text">Dincolo de tratamente și diagnoze, ne asigurăm că fiecare pacient se simte protejat, ascultat și înțeles, exact ca în confortul propriei case. Eliminăm frica și stresul asociate spitalelor clasice. Fiecare pacient este tratat ca un membru al familiei noastre, ascultând povestea din spatele fiecărui simptom.</p>
+                        <p class="about-three__text">La Home Medical vă așteaptă o echipă de medici dedicați, pregătiți pentru nevoile dumneavoastră.</p>
                         <div class="about-three__content-box">
                             <div class="about-three__content-icon">
                                 <span class="icon-healthcare"></span>
                             </div>
                             <div class="about-three__content">
-                                <h4>Medical & Expertise Services</h4>
-                                <p>Our hospital offers a full range of services tailored to meet your needs from
-                                    prevention to recovery with a patient-first approach.</p>
+                                <h4>O echipă dedicată</h4>
+                                <p>Medici dedicați, pregătiți să răspundă nevoilor dumneavoastră.</p>
                             </div>
-                        </div>
-                        <div class="about-three__points-box">
-                            <ul class="about-three__points">
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Advanced care with a personal approach.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Instant Operation & Appointment</p>
-                                    </div>
-                                </li>
-                            </ul>
-                            <ul class="about-three__points about-three__points--two">
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Advanced care with a personal approach.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Instant Operation & Appointment</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="about-three__btn">
-                            <a href="{{ route('contact') }}" class="thm-btn">
-                                <span class="fas fa-arrow-right"></span>
-                                More About Us
-                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <style>
+        .home-medical-about .about-three__left {
+            margin: 0;
+        }
+
+        .home-medical-about .about-three__img-box {
+            position: relative;
+            display: block;
+            width: 100%;
+            height: auto;
+            line-height: 0;
+        }
+
+        .home-medical-about .about-three__img {
+            position: relative;
+            display: block;
+            width: 100%;
+            min-height: 0;
+            height: auto;
+            border-radius: 26px;
+            overflow: hidden;
+            -webkit-mask: none;
+            mask: none;
+            -webkit-mask-image: none;
+            mask-image: none;
+            background: transparent;
+        }
+
+        .home-medical-about .about-three__img img {
+            display: block;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 26px;
+        }
+    </style>
     <!--About Three End -->
 
     <!-- Sliding Text Two Start -->
