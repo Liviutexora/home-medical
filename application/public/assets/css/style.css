@@ -17150,8 +17150,8 @@ Why Choose One
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: .30;
-  mix-blend-mode: luminosity;
+  opacity: 1;
+  mix-blend-mode: normal;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
