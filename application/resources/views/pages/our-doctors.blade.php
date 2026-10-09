@@ -87,30 +87,6 @@
                     <div class="team-two__single">
                         <div class="team-two__img-box">
                             <div class="team-two__img">
-                                <img src="{{ asset('assets/images/Galerie-HM/666.jpg') }}" alt="Abdel Majid Damra">
-                            </div>
-                            <div class="team-two__arrow-and-social">
-                                <div class="team-two__arrow">
-                                    <span class="fas fa-share-alt"></span>
-                                </div>
-                                <ul class="team-two__social list-unstyled">
-                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
-                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-two__content">
-                            <p class="team-two__designation">Gastroenterologie</p>
-                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'abdel-majid-damra']) }}">Abdel Majid Damra</a></h3>
-                        </div>
-                    </div>
-                </div>
-                <!--Team Two Single End -->
-<!--Team Two Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item gastroenterologie">
-                    <div class="team-two__single">
-                        <div class="team-two__img-box">
-                            <div class="team-two__img">
                                 <img src="{{ asset('assets/images/Galerie-HM/100.jpg') }}" alt="Burdan Ghiță Adrian">
                             </div>
                             <div class="team-two__arrow-and-social">
@@ -126,6 +102,30 @@
                         <div class="team-two__content">
                             <p class="team-two__designation">Gastroenterologie</p>
                             <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'burdan-ghita-adrian']) }}">Burdan Ghiță Adrian</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!--Team Two Single End -->
+<!--Team Two Single Start -->
+                <div class="col-xl-3 col-lg-6 col-md-6 filter-item gastroenterologie">
+                    <div class="team-two__single">
+                        <div class="team-two__img-box">
+                            <div class="team-two__img">
+                                <img src="{{ asset('assets/images/Galerie-HM/666.jpg') }}" alt="Damra Abdel Majid">
+                            </div>
+                            <div class="team-two__arrow-and-social">
+                                <div class="team-two__arrow">
+                                    <span class="fas fa-share-alt"></span>
+                                </div>
+                                <ul class="team-two__social list-unstyled">
+                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false" style="display:block; fill: currentColor; transform: translateY(0.5px); transform-origin: center;"><path d="M39.5 9.5c1.9 2.9 4.7 5 8.1 6.2v6.4c-2.8-.4-5.4-1.7-7.4-3.8v16.5c0 7.3-5.9 13.2-13.2 13.2S11 42 11 34.8 16.9 21.6 24.2 21.6c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4 0 4.7 3.8 8.4 8.4 8.4 4.6 0 8.3-3.6 8.4-8.2V9.5h5.5Z"/></svg></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-two__content">
+                            <p class="team-two__designation">Gastroenterologie</p>
+                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'abdel-majid-damra']) }}">Damra Abdel Majid</a></h3>
                         </div>
                     </div>
                 </div>
@@ -346,7 +346,41 @@
                     </div>
                 </div>
                 <!--Team Two Single End -->
-</div>{{--
+</div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.team-two__single').forEach(function (card) {
+                var link = card.querySelector('.team-two__name a');
+
+                if (!link) {
+                    return;
+                }
+
+                card.dataset.link = link.href;
+                card.style.cursor = 'pointer';
+                card.setAttribute('role', 'link');
+                card.tabIndex = 0;
+
+                card.addEventListener('click', function (event) {
+                    if (event.target.closest('a')) {
+                        return;
+                    }
+
+                    window.location.href = card.dataset.link;
+                });
+
+                card.addEventListener('keydown', function (event) {
+                    if ((event.key === 'Enter' || event.key === ' ') && !event.target.closest('a')) {
+                        event.preventDefault();
+                        window.location.href = card.dataset.link;
+                    }
+                });
+            });
+        });
+    </script>
+
+{{--
                 <!--Team Two Single Start -->
                 <div class="col-xl-3 col-lg-6 col-md-6 filter-item traumatology">
                     <div class="team-two__single">

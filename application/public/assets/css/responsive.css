@@ -3233,6 +3233,7 @@
 
     .page-header__inner {
         padding: 91px 0 93px;
+        padding-left: 15px;
     }
 
     .footer-widget__gallery {

@@ -11,6 +11,7 @@ class PagesController extends Controller
             'oniciu-marciana-alexandra' => [
                 'slug' => 'oniciu-marciana-alexandra',
                 'name' => 'Oniciu Marciana Alexandra',
+                'display_name' => 'Dr. Oniciu Marciana Alexandra',
                 'specialization' => 'Medicină internă',
                 'image' => '11111.jpg',
                 'intro' => 'Medic în cadrul clinicii Home Medical.',
@@ -21,6 +22,7 @@ class PagesController extends Controller
             'dumitru-cristina-stefania' => [
                 'slug' => 'dumitru-cristina-stefania',
                 'name' => 'Dumitru Cristina Ștefania',
+                'display_name' => 'Dr. Dumitru Cristina Ștefania',
                 'specialization' => 'ORL',
                 'image' => '22222.jpg',
                 'intro' => 'Medic în cadrul clinicii Home Medical.',
@@ -31,6 +33,7 @@ class PagesController extends Controller
             'agajani-heshmatollah' => [
                 'slug' => 'agajani-heshmatollah',
                 'name' => 'Agajani Heshmatollah',
+                'display_name' => 'Dr. Agajani Heshmatollah',
                 'specialization' => 'Dermatologie',
                 'image' => '33333.jpg',
                 'intro' => 'Medic în cadrul clinicii Home Medical.',
@@ -41,6 +44,7 @@ class PagesController extends Controller
             'ciobanu-andra-vera-livia' => [
                 'slug' => 'ciobanu-andra-vera-livia',
                 'name' => 'Ciobanu Andra Vera Livia',
+                'display_name' => 'Dr. Ciobanu Andra Vera Livia',
                 'specialization' => 'Psihiatrie',
                 'image' => '44444.jpg',
                 'intro' => 'Medic în cadrul clinicii Home Medical.',
@@ -51,6 +55,7 @@ class PagesController extends Controller
             'buta-marius-catalin' => [
                 'slug' => 'buta-marius-catalin',
                 'name' => 'Buță Marius Cătălin',
+                'display_name' => 'Dr. Buță Marius Cătălin',
                 'specialization' => 'Pneumologie',
                 'image' => '55555.jpg',
                 'intro' => 'Medic în cadrul clinicii Home Medical.',
@@ -61,6 +66,7 @@ class PagesController extends Controller
             'abdel-majid-damra' => [
                 'slug' => 'abdel-majid-damra',
                 'name' => 'Abdel Majid Damra',
+                'display_name' => 'Dr. Damra Abdel Majid',
                 'specialization' => 'Gastroenterologie',
                 'image' => '66666.jpg',
                 'intro' => 'Medic în cadrul clinicii Home Medical.',
@@ -71,6 +77,7 @@ class PagesController extends Controller
             'talan-claudia-loredana' => [
                 'slug' => 'talan-claudia-loredana',
                 'name' => 'Țălan Claudia Loredana',
+                'display_name' => 'Dr. Țălan Claudia Loredana',
                 'specialization' => 'Recuperare medicală',
                 'image' => '77777.jpg',
                 'intro' => 'Medic în cadrul clinicii Home Medical.',
@@ -81,6 +88,7 @@ class PagesController extends Controller
             'ilin-simona-ramona' => [
                 'slug' => 'ilin-simona-ramona',
                 'name' => 'Ilin Simona Ramona',
+                'display_name' => 'Dr. Ilin Simona Ramona',
                 'specialization' => 'Medicină internă',
                 'image' => '88888.jpg',
                 'intro' => 'Medic în cadrul clinicii Home Medical.',
@@ -91,6 +99,7 @@ class PagesController extends Controller
             'dandea-cristina' => [
                 'slug' => 'dandea-cristina',
                 'name' => 'Dandea Cristina',
+                'display_name' => 'Dr. Dandea Cristina',
                 'specialization' => 'Chirurgie generală',
                 'image' => '99999.jpg',
                 'intro' => 'Medic în cadrul clinicii Home Medical.',
@@ -101,6 +110,7 @@ class PagesController extends Controller
             'burdan-ghita-adrian' => [
                 'slug' => 'burdan-ghita-adrian',
                 'name' => 'Burdan Ghiță Adrian',
+                'display_name' => 'Dr. Burdan Ghiță Adrian',
                 'specialization' => 'Gastroenterologie',
                 'image' => '10000.jpg',
                 'intro' => 'Medic în cadrul clinicii Home Medical.',
@@ -111,6 +121,7 @@ class PagesController extends Controller
             'drira-ouassim' => [
                 'slug' => 'drira-ouassim',
                 'name' => 'Drira Ouassim',
+                'display_name' => 'Dr. Drira Ouassim',
                 'specialization' => 'Ortopedie',
                 'image' => '111111.jpg',
                 'intro' => 'Medic în cadrul clinicii Home Medical.',
@@ -121,6 +132,7 @@ class PagesController extends Controller
             'musat-ionut-marian' => [
                 'slug' => 'musat-ionut-marian',
                 'name' => 'Mușat Ionuț Marian',
+                'display_name' => 'Dr. Mușat Ionuț Marian',
                 'specialization' => 'Ortopedie',
                 'image' => '1222222.jpg',
                 'intro' => 'Medic în cadrul clinicii Home Medical.',
@@ -131,6 +143,7 @@ class PagesController extends Controller
             'marginean-andrei' => [
                 'slug' => 'marginean-andrei',
                 'name' => 'Mărginean Andrei',
+                'display_name' => 'Dr. Mărginean Andrei',
                 'specialization' => 'Chirurgie generală',
                 'image' => '1333333.jpg',
                 'intro' => 'Medic în cadrul clinicii Home Medical.',

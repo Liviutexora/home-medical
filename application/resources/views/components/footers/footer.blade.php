@@ -59,11 +59,11 @@
                                     <div class="footer-widget__services">
                                         <h4 class="footer-widget__title">ECHIPA MEDICALĂ</h4>
                                         <ul class="footer-widget__links-list list-unstyled">
-                                            <li><a href="{{ route('our-doctors-details', ['slug' => 'oniciu-marciana-alexandra']) }}">Oniciu Marciana Alexandra</a></li>
-                                            <li><a href="{{ route('our-doctors-details', ['slug' => 'dumitru-cristina-stefania']) }}">Dumitru Cristina Ștefania</a></li>
-                                            <li><a href="{{ route('our-doctors-details', ['slug' => 'agajani-heshmatollah']) }}">Agajani Heshmatollah</a></li>
-                                            <li><a href="{{ route('our-doctors-details', ['slug' => 'ciobanu-andra-vera-livia']) }}">Ciobanu Andra Vera Livia</a></li>
-                                            <li><a href="{{ route('our-doctors-details', ['slug' => 'buta-marius-catalin']) }}">Buță Marius Cătălin</a></li>
+                                            <li><a href="{{ route('our-doctors-details', ['slug' => 'oniciu-marciana-alexandra']) }}">Dr. Oniciu Marciana Alexandra</a></li>
+                                            <li><a href="{{ route('our-doctors-details', ['slug' => 'dumitru-cristina-stefania']) }}">Dr. Dumitru Cristina Ștefania</a></li>
+                                            <li><a href="{{ route('our-doctors-details', ['slug' => 'agajani-heshmatollah']) }}">Dr. Agajani Heshmatollah</a></li>
+                                            <li><a href="{{ route('our-doctors-details', ['slug' => 'ciobanu-andra-vera-livia']) }}">Dr. Ciobanu Andra Vera Livia</a></li>
+                                            <li><a href="{{ route('our-doctors-details', ['slug' => 'buta-marius-catalin']) }}">Dr. Buță Marius Cătălin</a></li>
                                             <li><a href="{{ route('our-doctors') }}">Vezi toată echipa →</a></li>
                                         </ul>
                                     </div>

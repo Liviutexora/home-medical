@@ -541,7 +541,7 @@
                         <div class="team-three__single">
                             <div class="team-three__info">
                                 <p class="team-three__sub-title">Medicină internă</p>
-                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'oniciu-marciana-alexandra']) }}">Oniciu Marciana Alexandra</a></h3>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'oniciu-marciana-alexandra']) }}">Dr. Oniciu Marciana Alexandra</a></h3>
                             </div>
                             <div class="team-three__social">
                                 <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
@@ -558,7 +558,7 @@
                         <div class="team-three__single">
                             <div class="team-three__info">
                                 <p class="team-three__sub-title">ORL</p>
-                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'dumitru-cristina-stefania']) }}">Dumitru Cristina Ștefania</a></h3>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'dumitru-cristina-stefania']) }}">Dr. Dumitru Cristina Ștefania</a></h3>
                             </div>
                             <div class="team-three__social">
                                 <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
@@ -575,7 +575,7 @@
                         <div class="team-three__single">
                             <div class="team-three__info">
                                 <p class="team-three__sub-title">Dermatologie</p>
-                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'agajani-heshmatollah']) }}">Agajani Heshmatollah</a></h3>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'agajani-heshmatollah']) }}">Dr. Agajani Heshmatollah</a></h3>
                             </div>
                             <div class="team-three__social">
                                 <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
@@ -592,7 +592,7 @@
                         <div class="team-three__single">
                             <div class="team-three__info">
                                 <p class="team-three__sub-title">Psihiatrie</p>
-                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'ciobanu-andra-vera-livia']) }}">Ciobanu Andra Vera Livia</a></h3>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'ciobanu-andra-vera-livia']) }}">Dr. Ciobanu Andra Vera Livia</a></h3>
                             </div>
                             <div class="team-three__social">
                                 <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
@@ -609,7 +609,7 @@
                         <div class="team-three__single">
                             <div class="team-three__info">
                                 <p class="team-three__sub-title">Pneumologie</p>
-                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'buta-marius-catalin']) }}">Buță Marius Cătălin</a></h3>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'buta-marius-catalin']) }}">Dr. Buță Marius Cătălin</a></h3>
                             </div>
                             <div class="team-three__social">
                                 <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
@@ -626,7 +626,7 @@
                         <div class="team-three__single">
                             <div class="team-three__info">
                                 <p class="team-three__sub-title">Gastroenterologie</p>
-                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'abdel-majid-damra']) }}">Abdel Majid Damra</a></h3>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'abdel-majid-damra']) }}">Dr. Damra Abdel Majid</a></h3>
                             </div>
                             <div class="team-three__social">
                                 <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
@@ -643,7 +643,7 @@
                         <div class="team-three__single">
                             <div class="team-three__info">
                                 <p class="team-three__sub-title">Recuperare medicală</p>
-                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'talan-claudia-loredana']) }}">Țălan Claudia Loredana</a></h3>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'talan-claudia-loredana']) }}">Dr. Țălan Claudia Loredana</a></h3>
                             </div>
                             <div class="team-three__social">
                                 <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
@@ -660,7 +660,7 @@
                         <div class="team-three__single">
                             <div class="team-three__info">
                                 <p class="team-three__sub-title">Medicină internă</p>
-                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'ilin-simona-ramona']) }}">Ilin Simona Ramona</a></h3>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'ilin-simona-ramona']) }}">Dr. Ilin Simona Ramona</a></h3>
                             </div>
                             <div class="team-three__social">
                                 <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
@@ -677,7 +677,7 @@
                         <div class="team-three__single">
                             <div class="team-three__info">
                                 <p class="team-three__sub-title">Chirurgie generală</p>
-                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'dandea-cristina']) }}">Dandea Cristina</a></h3>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'dandea-cristina']) }}">Dr. Dandea Cristina</a></h3>
                             </div>
                             <div class="team-three__social">
                                 <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
@@ -694,7 +694,7 @@
                         <div class="team-three__single">
                             <div class="team-three__info">
                                 <p class="team-three__sub-title">Gastroenterologie</p>
-                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'burdan-ghita-adrian']) }}">Burdan Ghiță Adrian</a></h3>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'burdan-ghita-adrian']) }}">Dr. Burdan Ghiță Adrian</a></h3>
                             </div>
                             <div class="team-three__social">
                                 <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
@@ -711,7 +711,7 @@
                         <div class="team-three__single">
                             <div class="team-three__info">
                                 <p class="team-three__sub-title">Ortopedie</p>
-                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'drira-ouassim']) }}">Drira Ouassim</a></h3>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'drira-ouassim']) }}">Dr. Drira Ouassim</a></h3>
                             </div>
                             <div class="team-three__social">
                                 <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
@@ -728,7 +728,7 @@
                         <div class="team-three__single">
                             <div class="team-three__info">
                                 <p class="team-three__sub-title">Ortopedie</p>
-                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'musat-ionut-marian']) }}">Mușat Ionuț Marian</a></h3>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'musat-ionut-marian']) }}">Dr. Mușat Ionuț Marian</a></h3>
                             </div>
                             <div class="team-three__social">
                                 <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
@@ -745,7 +745,7 @@
                         <div class="team-three__single">
                             <div class="team-three__info">
                                 <p class="team-three__sub-title">Chirurgie generală</p>
-                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'marginean-andrei']) }}">Mărginean Andrei</a></h3>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'marginean-andrei']) }}">Dr. Mărginean Andrei</a></h3>
                             </div>
                             <div class="team-three__social">
                                 <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>

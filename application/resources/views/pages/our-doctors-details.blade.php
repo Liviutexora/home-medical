@@ -21,7 +21,7 @@
                     <div class="col-xl-7 col-lg-7">
                         <div class="team-details__top-right">
                             <div class="team-details__client-box">
-                                <h3 class="team-details__client-name">{{ $doctor['name'] }}</h3>
+                                <h3 class="team-details__client-name">{{ $doctor['display_name'] ?? ('Dr. ' . $doctor['name']) }}</h3>
                                 <span class="team-details__client-sub-title">{{ $doctor['specialization'] }}</span>
                                 <div class="team-details__social">
                                     <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="icon-facebook-app-symbol"></i></a>
@@ -75,7 +75,7 @@ Acordă o atenție deosebită evaluării corecte a fiecărui pacient și unei ab
 Ortopedia este un domeniu aflat la intersecția funcției și mișcării, în care experiența medicală, știința și empatia au un rol important. Abordarea afecțiunilor ortopedice și traumatice presupune înțelegerea complexă a mecanismelor care influențează recuperarea și revenirea pacientului la activitățile cotidiene și profesionale.
 
 Acordă o atenție deosebită pacienților cu afecțiuni degenerative, pentru care consideră esențiale o atitudine atentă, răbdarea, înțelegerea și empatia.',
-                                    'talan-claudia-loredana' => 'În activitatea medicală acordă atenție înțelegerii fiecărui pacient în ansamblu, pentru ca evaluarea și schema de tratament să fie adaptate nevoilor individuale. Abordarea urmărește sprijinirea unei recuperări cât mai eficiente, prin îmbunătățirea mobilității articulare și reducerea durerii și a inflamației. Scopul este de a contribui la recâștigarea funcționalității și la îmbunătățirea stării generale de sănătate a pacientului.',
+                                    'talan-claudia-loredana' => 'În activitatea medicală acordă atenție înțelegerii fiecărui pacient în ansamblu, pentru ca evaluarea și schema de tratament să fie adaptate nevoilor individuale. Abordarea doamnei doctor urmărește sprijinirea unei recuperări cât mai eficiente, prin îmbunătățirea mobilității articulare și reducerea durerii și a inflamației. Scopul este de a contribui la recâștigarea funcționalității și la îmbunătățirea stării generale de sănătate a pacientului.',
                                     'ciobanu-andra-vera-livia' => 'Medic specialist psihiatru, cu o abordare calmă, empatică și atentă la nevoile fiecărui pacient. Își propune să ofere un spațiu sigur, bazat pe încredere, răbdare și respect, în care fiecare persoană să se simtă ascultată și înțeleasă.',
                                     'marginean-andrei' => 'Medic specialist în Chirurgie Generală, cu interes pentru chirurgia oncoplastică a sânului. Abordarea sa medicală urmărește evaluarea atentă a fiecărui pacient și alegerea unei conduite adaptate nevoilor individuale.',
                                     'buta-marius-catalin' => 'Medic empatic și atent, preocupat de nevoile fiecărui pacient. În activitatea medicală acordă importanță unei evaluări atente și unei abordări adaptate fiecărei persoane. În domeniul pneumologiei, o atenție deosebită este acordată sănătății aparatului respirator și identificării corecte a problemelor care pot afecta respirația și calitatea vieții. Comunicarea, răbdarea și înțelegerea pacientului reprezintă elemente importante ale unei relații medicale bazate pe încredere.',
@@ -143,6 +143,7 @@ Acordă o atenție deosebită pacienților cu afecțiuni degenerative, pentru ca
                                                 'Laser terapie',
                                                 'Masaj relaxare',
                                                 'Ultrasonoterapie',
+                                                'Electroterapie',
                                             ],
                                             'dandea-cristina' => [
                                                 'EKG',
@@ -204,6 +205,15 @@ Acordă o atenție deosebită pacienților cu afecțiuni degenerative, pentru ca
                                                 'Colonoscopie',
                                                 'Gastroscopie',
                                                 'Polipectomie',
+                                                'Consultație',
+                                                'Anuscopie',
+                                                'Rectosigmoidoscopie',
+                                                'Polipectomie la cald simplă și complexă',
+                                                'Polipectomie la rece',
+                                                'Aplicare hemoclip',
+                                                'Preluare biopsie',
+                                                'Marcaj endoscopic preoperator al unui neoplasm sigmoidian',
+                                                'Anestezie',
                                             ],
                                             'burdan-ghita-adrian' => [
                                                 'Ecografie abdominală',
@@ -211,6 +221,15 @@ Acordă o atenție deosebită pacienților cu afecțiuni degenerative, pentru ca
                                                 'Colonoscopie',
                                                 'Gastroscopie',
                                                 'Polipectomie',
+                                                'Consultație',
+                                                'Anuscopie',
+                                                'Rectosigmoidoscopie',
+                                                'Polipectomie la cald simplă și complexă',
+                                                'Polipectomie la rece',
+                                                'Aplicare hemoclip',
+                                                'Preluare biopsie',
+                                                'Marcaj endoscopic preoperator al unui neoplasm sigmoidian',
+                                                'Anestezie',
                                             ],
                                             'ilin-simona-ramona' => [
                                                 'EKG',

@@ -753,6 +753,7 @@ xs sidebar
 /*--------------------------------------------------------------
 # Custom Cursor
 --------------------------------------------------------------*/
+/*
 .custom-cursor__cursor {
   width: 25px;
   height: 25px;
@@ -794,6 +795,7 @@ xs sidebar
   height: 25px;
   opacity: .4;
 }
+*/
 
 /*---------------------------------
      Preloader CSS
@@ -9601,7 +9603,8 @@ Sliding Text Two
 .sliding-text-two {
   position: relative;
   display: block;
-  padding: 30px 0 30px;
+  height: 40px;
+  padding: 35px 0 35px;
   background-color: var(--mediplace-black);
   z-index: 1;
 }
@@ -17160,10 +17163,14 @@ Why Choose One
 
 .page-header__inner {
   position: relative;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
   padding: 160px 0 167px;
+  padding-left: calc(min(22%, 350px) + 50px);
   z-index: 2;
-  text-align: center;
+  text-align: left;
 }
 
 .page-header__inner h3 {
