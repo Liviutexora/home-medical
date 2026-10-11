@@ -5,9 +5,7 @@ use App\Http\Controllers\PagesController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ContactController;
 
-Route::get('/', function () {
-    return redirect()->route('about-v-3');
-})->name('index');
+Route::get('/', [HomeController::class, 'index3'])->name('index');
 
 Route::get('/index3', [HomeController::class, 'index3'])
     ->name('index3');
