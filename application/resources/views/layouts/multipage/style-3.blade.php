@@ -14,8 +14,8 @@
         <x-headers.header3 />
 
         @yield('content')
-        <x-newsletters.newsletter3 />
-        <x-footers.footer3 />
+        {{-- <x-newsletters.newsletter3 /> --}}
+        <x-footers.footer />
     </div>
     <x-mobile-nav />
     <x-search-popup />

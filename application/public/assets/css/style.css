@@ -2815,7 +2815,7 @@ xs sidebar
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 60px;
+  gap: 20px 28px;
 }
 
 .main-menu-three__contact-list li {
@@ -2823,7 +2823,7 @@ xs sidebar
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 10px 15px;
 }
 
 .main-menu-three__contact-list li .icon {
@@ -2846,13 +2846,24 @@ xs sidebar
 }
 
 .main-menu-three__contact-list li .text p {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
+  line-height: 1.4;
   color: var(--mediplace-black);
 }
 
 .main-menu-three__contact-list li .text p a {
   color: var(--mediplace-black);
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+    .main-menu-three__contact-list {
+        gap: 12px 18px;
+    }
+
+    .main-menu-three__contact-list li .text p {
+        font-size: 12px;
+    }
 }
 
 .main-menu-three__social {
@@ -3015,7 +3026,7 @@ xs sidebar
   font-weight: 500;
   color: rgba(var(--mediplace-white-rgb), .70);
   line-height: 16px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .main-menu-three__call-number {

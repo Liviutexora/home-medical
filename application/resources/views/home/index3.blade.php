@@ -164,27 +164,14 @@
     <!--CTA One End -->
 
     <!--About Three Start -->
-    <section class="about-three">
+    <section class="about-three home-medical-about">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6">
                     <div class="about-three__left wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                         <div class="about-three__img-box">
                             <div class="about-three__img">
-                                <img src="{{ asset('assets/images/resources/about-three-img-1.jpg') }}" alt="">
-                            </div>
-                            <div class="about-three__img-two">
-                                <img src="{{ asset('assets/images/resources/about-three-img-2.jpg') }}" alt="">
-                            </div>
-                            <div class="about-three__img-three">
-                                <img src="{{ asset('assets/images/resources/about-three-img-3.jpg') }}" alt="">
-                            </div>
-                            <div class="about-three__experience-box">
-                                <div class="about-three__experience-count">
-                                    <h3 class="odometer" data-count="25">00</h3>
-                                    <span>+</span>
-                                </div>
-                                <p class="about-three__experience-count-text">Years Of Experience</p>
+                                <img src="{{ asset('assets/images/HM-despre-noi/receptie.jpg') }}" alt="Home Medical reception">
                             </div>
                         </div>
                     </div>
@@ -194,79 +181,66 @@
                         <div class="section-title text-left sec-title-animation animation-style2">
                             <div class="section-title__tagline-box">
                                 <span class="icon-pharmacy"></span>
-                                <p class="section-title__tagline">About Our Hospital</p>
+                                <p class="section-title__tagline">DESPRE HOME MEDICAL</p>
                             </div>
-                            <h2 class="section-title__title title-animation">Leading the Way in Patient
-                                <span>Centered Care</span>
-                            </h2>
+                            <h2 class="section-title__title title-animation">Locul unde „HOME MEDICAL” înseamnă acasă pentru fiecare</h2>
                         </div>
-                        <p class="about-three__text">We are a patient-centered hospital dedicated to delivering
-                            world-class medical care through advanced technology & compassionate service. Our team
-                            of experienced doctors, nurses, & staff work together to ensure every patient receives
-                            personalized treatment in a safe and supportive environment.</p>
+                        <p class="about-three__text">Dincolo de tratamente și diagnoze, ne asigurăm că fiecare pacient se simte protejat, ascultat și înțeles, exact ca în confortul propriei case. Eliminăm frica și stresul asociate spitalelor clasice. Fiecare pacient este tratat ca un membru al familiei noastre, ascultând povestea din spatele fiecărui simptom.</p>
+                        <p class="about-three__text">La Home Medical vă așteaptă o echipă de medici dedicați, pregătiți pentru nevoile dumneavoastră.</p>
                         <div class="about-three__content-box">
                             <div class="about-three__content-icon">
                                 <span class="icon-healthcare"></span>
                             </div>
                             <div class="about-three__content">
-                                <h4>Medical & Expertise Services</h4>
-                                <p>Our hospital offers a full range of services tailored to meet your needs from
-                                    prevention to recovery with a patient-first approach.</p>
+                                <h4>O echipă dedicată</h4>
+                                <p>Medici dedicați, pregătiți să răspundă nevoilor dumneavoastră.</p>
                             </div>
-                        </div>
-                        <div class="about-three__points-box">
-                            <ul class="about-three__points">
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Advanced care with a personal approach.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Instant Operation & Appointment</p>
-                                    </div>
-                                </li>
-                            </ul>
-                            <ul class="about-three__points about-three__points--two">
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Advanced care with a personal approach.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Instant Operation & Appointment</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="about-three__btn">
-                            <a href="{{ route('about-v-3') }}" class="thm-btn">
-                                <span class="fas fa-arrow-right"></span>
-                                More About Us
-                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <style>
+        .home-medical-about .about-three__left {
+            margin: 0;
+        }
+
+        .home-medical-about .about-three__img-box {
+            position: relative;
+            display: block;
+            width: 100%;
+            height: auto;
+            line-height: 0;
+        }
+
+        .home-medical-about .about-three__img {
+            position: relative;
+            display: block;
+            width: 100%;
+            min-height: 0;
+            height: auto;
+            border-radius: 26px;
+            overflow: hidden;
+            -webkit-mask: none;
+            mask: none;
+            -webkit-mask-image: none;
+            mask-image: none;
+            background: transparent;
+        }
+
+        .home-medical-about .about-three__img img {
+            display: block;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 26px;
+        }
+    </style>
     <!--About Three End -->
 
     <!--Services Three Start-->
-    <section class="services-three">
+    <section class="services-three about-page-3-service-page">
         <div class="services-three__shape-2 float-bob-y">
             <img src="{{ asset('assets/images/shapes/services-three-shape-2.png') }}" alt="">
         </div>
@@ -279,23 +253,28 @@
         <div class="services-three__shape-5">
             <img src="{{ asset('assets/images/shapes/services-three-shape-5.png') }}" alt="">
         </div>
+        <style>
+            .about-page-3-service-page .services-three__count {
+                display: none;
+            }
+        </style>
         <div class="container">
             <div class="section-title text-center sec-title-animation animation-style1">
                 <div class="section-title__tagline-box">
                     <span class="icon-pharmacy"></span>
-                    <p class="section-title__tagline">Healing with Heart</p>
+                    <p class="section-title__tagline">TRATĂM CU SUFLET</p>
                 </div>
-                <h2 class="section-title__title title-animation">Medical Services That <br>
-                    <span>make a difference</span>
+                <h2 class="section-title__title title-animation">Servicii medicale care <br>
+                    <span>fac diferența</span>
                 </h2>
             </div>
             <div class="swiper-container service-three__carousel">
                 <div class="swiper-wrapper">
                     <!--Services Three Single Start-->
                     <div class="swiper-slide">
-                        <div class="services-three__single">
+                        <div class="services-three__single" data-link="{{ route('chirurgie-generala') }}">
                             <div class="services-three__icon">
-                                <span class="icon-orthopaedics"></span>
+                                <span class="icon-first-aid-kit"></span>
                             </div>
                             <div class="services-three__single-inner">
                                 <div class="services-three__shape-1">
@@ -304,12 +283,9 @@
                                 </div>
                                 <div class="services-three__count"></div>
                                 <div class="services-three__content">
-                                    <p class="services-three__sub-title">Fitness</p>
-                                    <h3 class="services-three__title"><a
-                                            href="{{ route('medicine-and-health') }}">Orthopaedics</a></h3>
-                                    <p class="services-three__text">we offer a wide range of medical services
-                                        designed
-                                        to meet the needs of patients at every stage of life.</p>
+                                    <p class="services-three__sub-title">Chirurgie</p>
+                                    <h3 class="services-three__title"><a href="{{ route('chirurgie-generala') }}">Chirurgie Generală</a></h3>
+                                    <p class="services-three__text">Acest departament oferă evaluare clinică și management chirurgical, cu respectarea protocoalelor și a standardelor de siguranță.</p>
                                 </div>
                             </div>
                         </div>
@@ -317,7 +293,49 @@
                     <!--Services Three Single End-->
                     <!--Services Three Single Start-->
                     <div class="swiper-slide">
-                        <div class="services-three__single">
+                        <div class="services-three__single" data-link="{{ route('dermatologie') }}">
+                            <div class="services-three__icon">
+                                <span class="icon-dermatology"></span>
+                            </div>
+                            <div class="services-three__single-inner">
+                                <div class="services-three__shape-1">
+                                    <img src="{{ asset('assets/images/shapes/services-three-shape-1.png') }}"
+                                        alt="">
+                                </div>
+                                <div class="services-three__count"></div>
+                                <div class="services-three__content">
+                                    <p class="services-three__sub-title">Piele</p>
+                                    <h3 class="services-three__title"><a href="{{ route('dermatologie') }}">Dermatologie</a></h3>
+                                    <p class="services-three__text">Departamentul de dermatologie oferă evaluare pentru afecțiuni ale pielii, părului și unghiilor, cu soluții adaptate fiecărei situații.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Services Three Single End-->
+                    <!--Services Three Single Start-->
+                    <div class="swiper-slide">
+                        <div class="services-three__single" data-link="{{ route('gastroenterologie') }}">
+                            <div class="services-three__icon">
+                                <span class="icon-medicine"></span>
+                            </div>
+                            <div class="services-three__single-inner">
+                                <div class="services-three__shape-1">
+                                    <img src="{{ asset('assets/images/shapes/services-three-shape-1.png') }}"
+                                        alt="">
+                                </div>
+                                <div class="services-three__count"></div>
+                                <div class="services-three__content">
+                                    <p class="services-three__sub-title">Digestiv</p>
+                                    <h3 class="services-three__title"><a href="{{ route('gastroenterologie') }}">Gastroenterologie</a></h3>
+                                    <p class="services-three__text">Departamentul de gastroenterologie asigură evaluarea simptomelor digestive și gestionarea afecțiunilor tractului gastrointestinal.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Services Three Single End-->
+                    <!--Services Three Single Start-->
+                    <div class="swiper-slide">
+                        <div class="services-three__single" data-link="{{ route('medicina-interna') }}">
                             <div class="services-three__icon">
                                 <span class="icon-heart"></span>
                             </div>
@@ -328,13 +346,9 @@
                                 </div>
                                 <div class="services-three__count"></div>
                                 <div class="services-three__content">
-                                    <p class="services-three__sub-title">Health</p>
-                                    <h3 class="services-three__title"><a
-                                            href="{{ route('heart-specialist') }}">Cardiology</a>
-                                    </h3>
-                                    <p class="services-three__text">we offer a wide range of medical services
-                                        designed
-                                        to meet the needs of patients at every stage of life.</p>
+                                    <p class="services-three__sub-title">Medicină internă</p>
+                                    <h3 class="services-three__title"><a href="{{ route('medicina-interna') }}">Medicină Internă</a></h3>
+                                    <p class="services-three__text">Departamentul de medicină internă este dedicat evaluării și gestionării afecțiunilor generale, cu accent pe prevenție, diagnostic și tratament.</p>
                                 </div>
                             </div>
                         </div>
@@ -342,9 +356,9 @@
                     <!--Services Three Single End-->
                     <!--Services Three Single Start-->
                     <div class="swiper-slide">
-                        <div class="services-three__single">
+                        <div class="services-three__single" data-link="{{ route('ortopedie') }}">
                             <div class="services-three__icon">
-                                <span class="icon-intensive-care-unit"></span>
+                                <span class="icon-orthopaedics"></span>
                             </div>
                             <div class="services-three__single-inner">
                                 <div class="services-three__shape-1">
@@ -353,12 +367,93 @@
                                 </div>
                                 <div class="services-three__count"></div>
                                 <div class="services-three__content">
-                                    <p class="services-three__sub-title">Vitality</p>
-                                    <h3 class="services-three__title"><a href="{{ route('general-surgery') }}">Intensive
-                                            Care</a></h3>
-                                    <p class="services-three__text">we offer a wide range of medical services
-                                        designed
-                                        to meet the needs of patients at every stage of life.</p>
+                                    <p class="services-three__sub-title">Aparat locomotor</p>
+                                    <h3 class="services-three__title"><a href="{{ route('ortopedie') }}">Ortopedie</a></h3>
+                                    <p class="services-three__text">Departamentul de ortopedie abordează evaluarea și gestionarea problemelor musculo-scheletale, cu focus pe mobilitate și funcție.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Services Three Single End-->
+                    <!--Services Three Single Start-->
+                    <div class="swiper-slide">
+                        <div class="services-three__single" data-link="{{ route('orl') }}">
+                            <div class="services-three__icon">
+                                <span class="icon-medical-team"></span>
+                            </div>
+                            <div class="services-three__single-inner">
+                                <div class="services-three__shape-1">
+                                    <img src="{{ asset('assets/images/shapes/services-three-shape-1.png') }}"
+                                        alt="">
+                                </div>
+                                <div class="services-three__count"></div>
+                                <div class="services-three__content">
+                                    <p class="services-three__sub-title">ORL</p>
+                                    <h3 class="services-three__title"><a href="{{ route('orl') }}">ORL</a></h3>
+                                    <p class="services-three__text">Departamentul ORL tratează afecțiuni ale urechii, nasului, gâtului și căilor respiratorii superioare.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Services Three Single End-->
+                    <!--Services Three Single Start-->
+                    <div class="swiper-slide">
+                        <div class="services-three__single" data-link="{{ route('pneumologie') }}">
+                            <div class="services-three__icon">
+                                <span class="icon-heart-rate"></span>
+                            </div>
+                            <div class="services-three__single-inner">
+                                <div class="services-three__shape-1">
+                                    <img src="{{ asset('assets/images/shapes/services-three-shape-1.png') }}"
+                                        alt="">
+                                </div>
+                                <div class="services-three__count"></div>
+                                <div class="services-three__content">
+                                    <p class="services-three__sub-title">Respirație</p>
+                                    <h3 class="services-three__title"><a href="{{ route('pneumologie') }}">Pneumologie</a></h3>
+                                    <p class="services-three__text">Departamentul de pneumologie se ocupă cu evaluarea și tratamentul afecțiunilor respiratorii, inclusiv a celor cronice.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Services Three Single End-->
+                    <!--Services Three Single Start-->
+                    <div class="swiper-slide">
+                        <div class="services-three__single" data-link="{{ route('psihiatrie') }}">
+                            <div class="services-three__icon">
+                                <span class="icon-brain"></span>
+                            </div>
+                            <div class="services-three__single-inner">
+                                <div class="services-three__shape-1">
+                                    <img src="{{ asset('assets/images/shapes/services-three-shape-1.png') }}"
+                                        alt="">
+                                </div>
+                                <div class="services-three__count"></div>
+                                <div class="services-three__content">
+                                    <p class="services-three__sub-title">Sănătate mentală</p>
+                                    <h3 class="services-three__title"><a href="{{ route('psihiatrie') }}">Psihiatrie</a></h3>
+                                    <p class="services-three__text">Departamentul de psihiatrie asigură evaluarea și îndrumarea pentru tulburările mentale și emoționale.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Services Three Single End-->
+                    <!--Services Three Single Start-->
+                    <div class="swiper-slide">
+                        <div class="services-three__single" data-link="{{ route('recuperare-medicala') }}">
+                            <div class="services-three__icon">
+                                <span class="icon-physical-therapy"></span>
+                            </div>
+                            <div class="services-three__single-inner">
+                                <div class="services-three__shape-1">
+                                    <img src="{{ asset('assets/images/shapes/services-three-shape-1.png') }}"
+                                        alt="">
+                                </div>
+                                <div class="services-three__count"></div>
+                                <div class="services-three__content">
+                                    <p class="services-three__sub-title">Recuperare</p>
+                                    <h3 class="services-three__title"><a href="{{ route('recuperare-medicala') }}">Recuperare Medicală</a></h3>
+                                    <p class="services-three__text">Departamentul de recuperare medicală are rolul de a sprijini refacerea funcțională și revenirea la o stare optimă de sănătate.</p>
                                 </div>
                             </div>
                         </div>
@@ -376,6 +471,26 @@
             </div>
         </div>
     </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.about-page-3-service-page .services-three__single[data-link]').forEach(function (card) {
+                card.style.cursor = 'pointer';
+                card.setAttribute('role', 'link');
+                card.tabIndex = 0;
+
+                card.addEventListener('click', function () {
+                    window.location.href = card.dataset.link;
+                });
+
+                card.addEventListener('keydown', function (event) {
+                    if (event.key === 'Enter' || event.key === ' ') {
+                        event.preventDefault();
+                        window.location.href = card.dataset.link;
+                    }
+                });
+            });
+        });
+    </script>
     <!--Services Three End -->
 
     <!--Process Two Start -->
@@ -473,6 +588,7 @@
         </div>
         <div class="container">
             <div class="brand-one__carousel owl-carousel owl-theme">
+                {{--
                 <!--Start Brand One Single-->
                 <div class="brand-one__single">
                     <div class="brand-one__single-inner">
@@ -517,6 +633,7 @@
                     </div>
                 </div>
                 <!--End Brand One Single-->
+                --}}
             </div>
         </div>
     </section>
@@ -528,9 +645,9 @@
             <div class="section-title text-left sec-title-animation animation-style1">
                 <div class="section-title__tagline-box">
                     <span class="icon-pharmacy"></span>
-                    <p class="section-title__tagline">Professional Care Team</p>
+                    <p class="section-title__tagline">ECHIPĂ MEDICALĂ</p>
                 </div>
-                <h2 class="section-title__title title-animation">Meet Our Medical <span>Professionals</span> </h2>
+                <h2 class="section-title__title title-animation">Faceți cunoștință cu echipa noastră</h2>
             </div>
             <div class="team-three__inner">
                 <div class="team-three__shape-1"></div>

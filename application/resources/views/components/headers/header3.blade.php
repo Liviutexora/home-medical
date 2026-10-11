@@ -14,9 +14,7 @@
                                     <i class="icon-phone-call"></i>
                                 </div>
                                 <div class="text">
-                                    <p>Working Hours:
-                                        Mon-sat:08:00-18:00,
-                                        Sunday-Closed</p>
+                                    <p>Program clinică: L–V, 09:00–17:00</p>
                                 </div>
                             </li>
                             <li>
@@ -24,7 +22,7 @@
                                     <i class="icon-phone-call"></i>
                                 </div>
                                 <div class="text">
-                                    <p><a href="tel:2334567908">(+233) 456 79 08</a></p>
+                                    <p>0356 171 818 · 0723 716 085</p>
                                 </div>
                             </li>
                             <li>
@@ -32,8 +30,7 @@
                                     <i class="icon-email"></i>
                                 </div>
                                 <div class="text">
-                                    <p><a href="mailto:needhelp&company.com">needhelp&company.com</a>
-                                    </p>
+                                    <p><a href="mailto:homemedicalvmc@gmail.com">homemedicalvmc@gmail.com</a></p>
                                 </div>
                             </li>
                         </ul>
@@ -64,11 +61,9 @@
                                         <i class="icon-phone"></i>
                                     </div>
                                     <div class="main-menu-three__call-content">
-                                        <p class="main-menu-three__call-sub-title">Need Help!</p>
-                                        <h5 class="main-menu-three__call-number"><a href="tel:1236667988">(+123)
-                                                666
-                                                79 88</a></h5>
-                                    </div>
+                                            <p class="main-menu-three__call-sub-title">Contactează-ne</p>
+                                            <h5 class="main-menu-three__call-number"><a href="tel:0356171818">0356 171 818</a></h5>
+                                        </div>
                                 </div>
                                 <div class="main-menu-three__nav-sidebar-icon">
                                     <a class="navSidebar-button" href="#">
