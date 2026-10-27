@@ -22,6 +22,7 @@
                                 <li><a href="{{ route('pneumologie') }}">Pneumologie<span class="fas fa-arrow-right"></span></a></li>
                                 <li><a href="{{ route('psihiatrie') }}">Psihiatrie<span class="fas fa-arrow-right"></span></a></li>
                                 <li class="active"><a href="{{ route('recuperare-medicala') }}">Recuperare medicală<span class="fas fa-arrow-right"></span></a></li>
+                                <li><a href="{{ route('cardiologie') }}">Cardiologie<span class="fas fa-arrow-right"></span></a></li>
                             </ul>
                         </div>
                         <div class="service-details__get-started">

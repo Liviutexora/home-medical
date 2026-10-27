@@ -1,8 +1,5 @@
 <ul class="main-menu__list">
     <li>
-        <a href="{{ route('index') }}">Acasă</a>
-    </li>
-    <li>
         <a href="{{ route('about-v-3') }}">Despre noi</a>
     </li>
     <li>
@@ -21,6 +18,7 @@
             <li><a href="{{ route('pneumologie') }}">Pneumologie</a></li>
             <li><a href="{{ route('psihiatrie') }}">Psihiatrie</a></li>
             <li><a href="{{ route('recuperare-medicala') }}">Recuperare medicală</a></li>
+            <li><a href="{{ route('cardiologie') }}">Cardiologie</a></li>
         </ul>
     </li>
     <li>

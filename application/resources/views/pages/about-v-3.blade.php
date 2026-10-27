@@ -338,6 +338,27 @@
                         </div>
                     </div>
                     <!--Services Three Single End-->
+                    <!--Services Three Single Start-->
+                    <div class="swiper-slide">
+                        <div class="services-three__single" data-link="{{ route('cardiologie') }}">
+                            <div class="services-three__icon">
+                                <span class="icon-heart-rate"></span>
+                            </div>
+                            <div class="services-three__single-inner">
+                                <div class="services-three__shape-1">
+                                    <img src="{{ asset('assets/images/shapes/services-three-shape-1.png') }}"
+                                        alt="">
+                                </div>
+                                <div class="services-three__count"></div>
+                                <div class="services-three__content">
+                                    <p class="services-three__sub-title">Cardio</p>
+                                    <h3 class="services-three__title"><a href="{{ route('cardiologie') }}">Cardiologie</a></h3>
+                                    <p class="services-three__text">Departamentul de cardiologie oferă evaluare și îngrijire pentru afecțiunile inimii, cu accent pe prevenție și diagnostic.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Services Three Single End-->
                 </div>
             </div>
             <div class="service-three__nav">

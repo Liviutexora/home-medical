@@ -5,7 +5,7 @@
         <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
         <div class="logo-box">
-            <a href="{{ route('index3') }}" aria-label="logo image"><img
+            <a href="{{ route('index') }}" aria-label="logo image"><img
                     src="{{ asset('assets/images/Sigla-Home-Medical/home-medical-logo-light.png') }}" alt="" /></a>
         </div>
         <!-- /.logo-box -->

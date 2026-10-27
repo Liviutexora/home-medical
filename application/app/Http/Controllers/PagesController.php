@@ -213,6 +213,11 @@ class PagesController extends Controller
         return view('pages.chirurgie-generala');
     }
 
+    public function cardiologie()
+    {
+        return view('pages.cardiologie');
+    }
+
     public function dermatologie()
     {
         return view('pages.dermatologie');

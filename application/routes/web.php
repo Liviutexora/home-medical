@@ -5,7 +5,7 @@ use App\Http\Controllers\PagesController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ContactController;
 
-Route::get('/', [HomeController::class, 'index3'])->name('index');
+Route::redirect('/', '/about-v-3')->name('index');
 
 Route::get('/index3', [HomeController::class, 'index3'])
     ->name('index3');
@@ -30,6 +30,9 @@ Route::get('/services-3', [PagesController::class, 'services_3'])
 
 Route::get('/chirurgie-generala', [PagesController::class, 'chirurgie_generala'])
     ->name('chirurgie-generala');
+
+Route::get('/cardiologie', [PagesController::class, 'cardiologie'])
+    ->name('cardiologie');
 
 Route::get('/dermatologie', [PagesController::class, 'dermatologie'])
     ->name('dermatologie');

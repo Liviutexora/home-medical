@@ -40,6 +40,9 @@
                                 <li>
                                     <a href="{{ route('recuperare-medicala') }}">Recuperare medicală<span class="fas fa-arrow-right"></span></a>
                                 </li>
+                                <li>
+                                    <a href="{{ route('cardiologie') }}">Cardiologie<span class="fas fa-arrow-right"></span></a>
+                                </li>
                             </ul>
                         </div>
                         <div class="service-details__get-started">
