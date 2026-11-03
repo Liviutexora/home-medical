@@ -686,6 +686,23 @@
                         </div>
                     </li>
                     <!--Team Three Single End-->
+<!--Team Three Single Start-->
+                    <li class="hover-item">
+                        <div class="team-three__single">
+                            <div class="team-three__info">
+                                <p class="team-three__sub-title">Cardiologie</p>
+                                <h3 class="team-three__name"><a href="{{ route('our-doctors-details', ['slug' => 'gherga-patricia-karina']) }}">Dr. Gherga Patricia-Karina</a></h3>
+                            </div>
+                            <div class="team-three__social">
+                                <a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="27" height="27" aria-hidden="true" focusable="false"><path d="M39.5 9.5v27.3c0 7.3-5.9 13.2-13.2 13.2S13 44.1 13 36.8s5.9-13.2 13.2-13.2c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4s3.8 8.4 8.4 8.4c4.6 0 8.3-3.6 8.4-8.2V9.5h5.9Z"/></svg></a>
+                            </div>
+                        </div>
+                        <div class="hover-item__box">
+                            <img src="{{ asset('assets/images/Galerie-HM/Gherga-Patricia-Karina-425x450.jpeg') }}" alt="Gherga Patricia-Karina" class="hover-item__box-img">
+                        </div>
+                    </li>
+                    <!--Team Three Single End-->
 </ul></ul>
             </div>
         </div>

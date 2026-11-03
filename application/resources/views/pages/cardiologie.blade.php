@@ -83,12 +83,61 @@
                         </ul>
                         <div class="service-details__team" style="margin-top: 3rem;">
                             <h3 class="service-details__title-1" style="margin-bottom: 1.5rem;">Echipa medicală</h3>
-                            <p class="service-details__text-1">Datele pentru această secțiune vor fi completate ulterior.</p>
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-6">
+                                    <div class="team-two__single">
+                                        <div class="team-two__img-box">
+                                            <div class="team-two__img">
+                                                <img src="{{ asset('assets/images/Galerie-HM/Gherga-Patricia-Karina-520x520.jpeg') }}" alt="Gherga Patricia-Karina">
+                                            </div>
+                                            <div class="team-two__arrow-and-social">
+                                                <div class="team-two__arrow"><span class="fas fa-share-alt"></span></div>
+                                            </div>
+                                        </div>
+                                        <div class="team-two__content">
+                                            <p class="team-two__designation">Medic specialist cardiologie</p>
+                                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'gherga-patricia-karina']) }}">Dr. Gherga Patricia-Karina</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.service-details__team .team-two__single').forEach(function (card) {
+                var link = card.querySelector('.team-two__name a');
+
+                if (!link) {
+                    return;
+                }
+
+                card.dataset.link = link.href;
+                card.style.cursor = 'pointer';
+                card.setAttribute('role', 'link');
+                card.tabIndex = 0;
+
+                card.addEventListener('click', function (event) {
+                    if (event.target.closest('a, .team-two__arrow-and-social')) {
+                        return;
+                    }
+
+                    window.location.href = card.dataset.link;
+                });
+
+                card.addEventListener('keydown', function (event) {
+                    if ((event.key === 'Enter' || event.key === ' ') && !event.target.closest('a, .team-two__arrow-and-social')) {
+                        event.preventDefault();
+                        window.location.href = card.dataset.link;
+                    }
+                });
+            });
+        });
+    </script>
 
 @endsection

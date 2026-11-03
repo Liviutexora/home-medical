@@ -151,6 +151,17 @@ class PagesController extends Controller
                 'phone' => '+40 (000) 000-0000',
                 'email' => 'contact@home-medical.ro',
             ],
+            'gherga-patricia-karina' => [
+                'slug' => 'gherga-patricia-karina',
+                'name' => 'Gherga Patricia-Karina',
+                'display_name' => 'Dr. Gherga Patricia-Karina',
+                'specialization' => 'Medic specialist cardiologie',
+                'image' => 'Gherga-Patricia-Karina-520x520.jpeg',
+                'intro' => 'Informațiile despre activitatea profesională și serviciile medicale oferite de Dr. Gherga Patricia-Karina vor fi completate în curând.',
+                'address' => 'Adresa clinicii',
+                'phone' => '+40 (000) 000-0000',
+                'email' => 'contact@home-medical.ro',
+            ],
         ];
     }
 

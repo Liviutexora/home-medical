@@ -346,6 +346,28 @@
                     </div>
                 </div>
                 <!--Team Two Single End -->
+<!--Team Two Single Start -->
+                <div class="col-xl-3 col-lg-6 col-md-6 filter-item cardiologie">
+                    <div class="team-two__single">
+                        <div class="team-two__img-box">
+                            <div class="team-two__img">
+                                <img src="{{ asset('assets/images/Galerie-HM/Gherga-Patricia-Karina-312x350.jpeg') }}" alt="Gherga Patricia-Karina">
+                            </div>
+                            <div class="team-two__arrow-and-social">
+                                <div class="team-two__arrow"><span class="fas fa-share-alt"></span></div>
+                                <ul class="team-two__social list-unstyled">
+                                    <li><a href="https://www.facebook.com/share/1JyNuEhQbp/" target="_blank" rel="noopener noreferrer"><span class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="https://www.tiktok.com/@home.medical7" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 64 64" width="18" height="18" aria-hidden="true" focusable="false"><path d="M39.5 9.5v27.3c0 7.3-5.9 13.2-13.2 13.2S13 44.1 13 36.8s5.9-13.2 13.2-13.2c1.8 0 3.5.3 5 .9v6.5a11 11 0 0 0-5-1.4c-4.7 0-8.4 3.8-8.4 8.4s3.8 8.4 8.4 8.4c4.6 0 8.3-3.6 8.4-8.2V9.5h5.9Z"/></svg></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-two__content">
+                            <p class="team-two__designation">Medic specialist cardiologie</p>
+                            <h3 class="team-two__name"><a href="{{ route('our-doctors-details', ['slug' => 'gherga-patricia-karina']) }}">Dr. Gherga Patricia-Karina</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!--Team Two Single End -->
 </div>
 
     <script>
