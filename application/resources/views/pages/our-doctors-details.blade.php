@@ -79,11 +79,11 @@ Acordă o atenție deosebită pacienților cu afecțiuni degenerative, pentru ca
                                     'ciobanu-andra-vera-livia' => 'Medic specialist psihiatru, cu o abordare calmă, empatică și atentă la nevoile fiecărui pacient. Își propune să ofere un spațiu sigur, bazat pe încredere, răbdare și respect, în care fiecare persoană să se simtă ascultată și înțeleasă.',
                                     'marginean-andrei' => 'Medic specialist în Chirurgie Generală, cu interes pentru chirurgia oncoplastică a sânului. Abordarea sa medicală urmărește evaluarea atentă a fiecărui pacient și alegerea unei conduite adaptate nevoilor individuale.',
                                     'buta-marius-catalin' => 'Medic empatic și atent, preocupat de nevoile fiecărui pacient. În activitatea medicală acordă importanță unei evaluări atente și unei abordări adaptate fiecărei persoane. În domeniul pneumologiei, o atenție deosebită este acordată sănătății aparatului respirator și identificării corecte a problemelor care pot afecta respirația și calitatea vieții. Comunicarea, răbdarea și înțelegerea pacientului reprezintă elemente importante ale unei relații medicale bazate pe încredere.',
-                                    'gherga-patricia-karina' => 'Informațiile despre activitatea profesională și serviciile medicale oferite de Dr. Gherga Patricia-Karina vor fi completate în curând.',
+                                    'gherga-patricia-karina' => 'Dr. Gherga Patricia-Karina este medic specialist în cardiologie în cadrul Home Medical Timișoara, oferind consultații și investigații dedicate sănătății inimii și sistemului cardiovascular. Activitatea sa include evaluarea cardiologică, identificarea factorilor de risc și monitorizarea afecțiunilor cardiovasculare, cu accent pe prevenție și recomandări medicale adaptate fiecărui pacient.',
                                     default => '3–5 propoziții despre medic, experiență și domeniul de activitate.',
                                 };
                             @endphp
-                            <p class="team-details__bottom-text">{{ $doctorBiography }}</p>
+                            <p class="team-details__bottom-text">{!! nl2br(e($doctorBiography)) !!}</p>
                             @if (($doctor['slug'] ?? null) === 'agajani-heshmatollah')
                                 <p class="team-details__bottom-text"><strong>Motto:</strong> „O piele sănătoasă este reflectarea stării noastre de bine”</p>
                             @endif
@@ -270,7 +270,15 @@ Acordă o atenție deosebită pacienților cu afecțiuni degenerative, pentru ca
 
                                         $doctorServices = $servicesBySlug[$doctor['slug'] ?? ''] ?? $defaultServices;
                                         if (($doctor['slug'] ?? null) === 'gherga-patricia-karina') {
-                                            $doctorServices = ['Lista serviciilor medicale oferite va fi disponibilă în curând.'];
+                                            $doctorServices = [
+                                                'Consult cardiologic',
+                                                'Control cardiologic',
+                                                'Ecografie cardiacă',
+                                                'Holter TA',
+                                                'Holter EKG',
+                                                'EKG',
+                                                'Indice gleznă-braț',
+                                            ];
                                         }
                                         $splitIndex = (int) ceil(count($doctorServices) / 2);
                                         $leftColumnServices = array_slice($doctorServices, 0, $splitIndex);

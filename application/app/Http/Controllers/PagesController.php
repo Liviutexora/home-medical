@@ -157,7 +157,7 @@ class PagesController extends Controller
                 'display_name' => 'Dr. Gherga Patricia-Karina',
                 'specialization' => 'Medic specialist cardiologie',
                 'image' => 'Gherga-Patricia-Karina-520x520.jpeg',
-                'intro' => 'Informațiile despre activitatea profesională și serviciile medicale oferite de Dr. Gherga Patricia-Karina vor fi completate în curând.',
+                'intro' => 'Dr. Gherga Patricia-Karina este medic specialist în cardiologie în cadrul Home Medical Timișoara. Oferă consultații de specialitate și investigații cardiovasculare pentru evaluarea sănătății inimii, identificarea factorilor de risc și monitorizarea afecțiunilor cardiovasculare.',
                 'address' => 'Adresa clinicii',
                 'phone' => '+40 (000) 000-0000',
                 'email' => 'contact@home-medical.ro',
